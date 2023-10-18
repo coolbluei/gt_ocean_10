@@ -30,6 +30,7 @@
 *komodo*
 .idea
 
+*.zip
 *.sql
 *.sql.gz
 *.mysql.gz
