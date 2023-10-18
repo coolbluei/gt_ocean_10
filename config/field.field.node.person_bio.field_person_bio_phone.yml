@@ -1,0 +1,19 @@
+uuid: 91ba5dd0-4cba-4890-845f-a207bbdc1b18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person_bio_phone
+    - node.type.person_bio
+id: node.person_bio.field_person_bio_phone
+field_name: field_person_bio_phone
+entity_type: node
+bundle: person_bio
+label: Phone
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

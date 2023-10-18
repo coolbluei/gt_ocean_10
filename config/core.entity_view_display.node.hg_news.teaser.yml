@@ -53,8 +53,6 @@ content:
     settings:
       image_style: ''
       image_link: ''
-      image_loading:
-        attribute: lazy
     third_party_settings: {  }
   field_hg_location:
     type: string

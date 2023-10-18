@@ -1,4 +1,4 @@
-uuid: b67e7ded-69f5-4d68-b7ff-ddfb464b090b
+uuid: d9201aeb-6004-4ea3-ac61-2a1180c9d4c1
 langcode: en
 status: true
 dependencies: {  }
@@ -82,10 +82,6 @@ process:
     -
       plugin: migration_lookup
       migration: upgrade_d7_file
-  field_name:
-    -
-      plugin: get
-      source: field_name
 destination:
   plugin: 'entity:user'
 migration_dependencies:

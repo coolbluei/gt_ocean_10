@@ -1,4 +1,4 @@
-uuid: 5066da05-e762-45fa-b477-ac0b1a1546fc
+uuid: 6810ecf7-2d17-4a84-90b0-cc82a59ad0fb
 langcode: en
 status: true
 dependencies: {  }
@@ -21,6 +21,7 @@ source:
       field_name: body
       label: Body
       display_summary: false
+      allowed_formats: {  }
   ids:
     entity_type:
       type: string

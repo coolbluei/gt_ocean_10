@@ -1,33 +1,18 @@
-uuid: 5e5a8931-afb6-426f-bd66-2d73ba86f00a
+uuid: 99df5a61-f11d-407e-9a90-1a522723f9ae
 langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.minimal_html
-    - filter.format.text_editor_advanced
-    - filter.format.text_editor_basic
-    - filter.format.unfiltered_html
-    - node.type.event
-    - node.type.gt_calendar_feed
-    - node.type.horizontal_landing_page
-    - node.type.minors_program
-    - node.type.multipurpose_page
     - node.type.page
-    - node.type.panel
-    - node.type.super_block
-    - node.type.vertical_landing_page
   module:
     - action
     - block
-    - block_content
-    - book
     - contextual
     - filter
     - image
     - node
     - path
     - pathauto
-    - search
     - system
     - taxonomy
     - views_ui
@@ -37,20 +22,13 @@ weight: 5
 is_admin: null
 permissions:
   - 'access administration pages'
-  - 'access block library'
-  - 'access content'
   - 'access content overview'
   - 'access contextual links'
-  - 'access printer-friendly version'
   - 'access site in maintenance mode'
   - 'access site reports'
   - 'access user profiles'
-  - 'add content to books'
   - 'administer actions'
-  - 'administer block content'
-  - 'administer block types'
   - 'administer blocks'
-  - 'administer book outlines'
   - 'administer content types'
   - 'administer filters'
   - 'administer image styles'
@@ -59,7 +37,6 @@ permissions:
   - 'administer nodes'
   - 'administer pathauto'
   - 'administer permissions'
-  - 'administer search'
   - 'administer site configuration'
   - 'administer software updates'
   - 'administer taxonomy'
@@ -70,50 +47,13 @@ permissions:
   - 'bypass node access'
   - 'cancel account'
   - 'change own username'
-  - 'create event content'
-  - 'create gt_calendar_feed content'
-  - 'create horizontal_landing_page content'
-  - 'create multipurpose_page content'
-  - 'create new books'
   - 'create page content'
-  - 'create panel content'
-  - 'create super_block content'
   - 'create url aliases'
-  - 'create vertical_landing_page content'
-  - 'delete any event content'
-  - 'delete any gt_calendar_feed content'
-  - 'delete any horizontal_landing_page content'
-  - 'delete any minors_program content'
-  - 'delete any multipurpose_page content'
   - 'delete any page content'
-  - 'delete any panel content'
-  - 'delete any super_block content'
-  - 'delete any vertical_landing_page content'
-  - 'delete own horizontal_landing_page content'
-  - 'delete own multipurpose_page content'
   - 'delete own page content'
-  - 'delete own panel content'
-  - 'delete own vertical_landing_page content'
-  - 'edit any event content'
-  - 'edit any gt_calendar_feed content'
-  - 'edit any horizontal_landing_page content'
-  - 'edit any multipurpose_page content'
   - 'edit any page content'
-  - 'edit any panel content'
-  - 'edit any super_block content'
-  - 'edit any vertical_landing_page content'
-  - 'edit own horizontal_landing_page content'
-  - 'edit own multipurpose_page content'
   - 'edit own page content'
-  - 'edit own panel content'
-  - 'edit own vertical_landing_page content'
   - 'notify of path changes'
-  - 'search content'
   - 'select account cancellation method'
-  - 'use advanced search'
-  - 'use text format minimal_html'
-  - 'use text format text_editor_advanced'
-  - 'use text format text_editor_basic'
-  - 'use text format unfiltered_html'
   - 'view own unpublished content'
   - 'view the administration theme'

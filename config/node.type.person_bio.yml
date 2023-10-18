@@ -1,0 +1,16 @@
+uuid: 0a189063-6ae3-4486-bf61-763462c9e556
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: 'Person Bio'
+type: person_bio
+description: 'Describes a person connected to this site with fields for their name, title, address, phone, email, bio text, and additional info such as related links.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

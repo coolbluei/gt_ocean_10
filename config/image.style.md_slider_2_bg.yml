@@ -1,0 +1,16 @@
+uuid: ef6f3327-d7b8-49c2-8010-46be9057f706
+langcode: en
+status: true
+dependencies: {  }
+name: md_slider_2_bg
+label: md_slider_2_bg
+effects:
+  6c659ae6-72aa-458a-870f-0dd3a819256c:
+    uuid: 6c659ae6-72aa-458a-870f-0dd3a819256c
+    id: image_scale_and_crop
+    weight: 0
+    data:
+      width: 1000
+      height: 300
+      anchor: center-center
+      scaleup: true

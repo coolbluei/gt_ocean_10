@@ -1,0 +1,30 @@
+uuid: 6ac33819-5768-4d0a-90a2-2f86d6333e22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_associated_faculty
+    - node.type.faculty_related_news
+    - node.type.person_bio
+id: node.faculty_related_news.field_associated_faculty
+field_name: field_associated_faculty
+entity_type: node
+bundle: faculty_related_news
+label: 'Project PIs'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      person_bio: person_bio
+    sort:
+      field: nid
+      direction: ASC
+    behaviors:
+      views-select-list:
+        status: 0
+field_type: entity_reference

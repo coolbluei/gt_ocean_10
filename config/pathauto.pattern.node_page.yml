@@ -1,4 +1,4 @@
-uuid: a407b1ae-1284-4c8c-b905-b6b4a99e8391
+uuid: 94e82ca1-215e-480c-b811-e8b45780e52e
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 id: node_page
 label: 'Content - Basic page'
 type: 'canonical_entities:node'
-pattern: '[node:title]'
+pattern: '[node:menu-link:parents:first]/[node:title]'
 selection_criteria:
   -
     id: 'entity_bundle:node'

@@ -160,7 +160,6 @@ display:
           exposed: false
           expose:
             label: ''
-            field_identifier: field_hg_dateline_value
           granularity: second
           plugin_id: datetime
       title: 'Recent news'

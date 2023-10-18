@@ -1,0 +1,36 @@
+uuid: 7b24eae5-d0c3-4e6b-ad33-116a0b0fc6a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.faculty_related_news.body
+    - field.field.node.faculty_related_news.field_associated_faculty
+    - field.field.node.faculty_related_news.field_media
+    - field.field.node.faculty_related_news.field_news_date
+    - node.type.faculty_related_news
+  module:
+    - text
+    - user
+id: node.faculty_related_news.teaser
+targetEntityType: node
+bundle: faculty_related_news
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_associated_faculty: true
+  field_media: true
+  field_news_date: true

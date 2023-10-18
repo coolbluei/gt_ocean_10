@@ -1,4 +1,4 @@
-uuid: e5035338-d1cd-4ad0-8eb2-4593877b2cab
+uuid: 41f54692-af7a-4a8c-a85a-d4c7dc4e17b9
 langcode: en
 status: true
 dependencies: {  }
@@ -81,20 +81,12 @@ process:
         entityreference_autocomplete: entity_reference_autocomplete
         entityreference_autocomplete_tags: entity_reference_autocomplete_tags
         taxonomy_autocomplete: entity_reference_autocomplete
-        inline_entity_form_single: inline_entity_form_simple
-        inline_entity_form: inline_entity_form_complex
         d7_text: d7_text_default
         list: list_default
         image: image_default
         image_miw: image_image
-        taxonomy_term_reference: taxonomy_term_reference_default
         entityreference: entityreference_default
-        file_mfw: file_generic
-        filefield_widget: file_generic
-        number_default: number_default_default
-        date: datetime_default
-        datetime: datetime_default
-        datestamp: datetime_timestamp
+        name_widget: name_default
   options/settings:
     -
       plugin: field_instance_widget_settings

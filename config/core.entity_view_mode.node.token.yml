@@ -7,6 +7,6 @@ dependencies:
 _core:
   default_config_hash: yaObtIyGS2qYhZVus7pEpeD_-WU-pI8RqSm-WiELFsU
 id: node.token
-label: token
+label: Token
 targetEntityType: node
 cache: true

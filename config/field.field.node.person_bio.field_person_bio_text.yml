@@ -1,0 +1,19 @@
+uuid: 0a0cd3b9-8127-4973-a1c9-078fe26db544
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person_bio_text
+    - node.type.person_bio
+id: node.person_bio.field_person_bio_text
+field_name: field_person_bio_text
+entity_type: node
+bundle: person_bio
+label: 'Research Interests'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,19 @@
+uuid: a827fb90-aba6-435b-9409-ef090944eee7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project_name_short
+    - node.type.ose_research_ideas
+id: node.ose_research_ideas.field_project_name_short
+field_name: field_project_name_short
+entity_type: node
+bundle: ose_research_ideas
+label: 'Project Name Short'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

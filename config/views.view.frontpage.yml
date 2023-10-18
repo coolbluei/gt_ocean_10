@@ -1,4 +1,4 @@
-uuid: 17ca6183-f453-4a69-9f29-42b870f497ec
+uuid: 20267b4f-24cc-44f5-b806-91986b0998fe
 langcode: en
 status: true
 dependencies:
@@ -87,8 +87,6 @@ display:
               authenticated: authenticated
             required: false
             use_operator: false
-            operator_limit_selection: false
-            operator_list: {  }
           exposed: false
           field: promote
           group: 1
@@ -116,8 +114,6 @@ display:
         status:
           expose:
             operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
           field: status
           group: 1
           id: status
@@ -151,8 +147,6 @@ display:
             remember_roles:
               authenticated: authenticated
             reduce: false
-            operator_limit_selection: false
-            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -206,7 +200,6 @@ display:
           admin_label: ''
           expose:
             label: ''
-            field_identifier: sticky
           exposed: false
           field: sticky
           group_type: group
@@ -229,7 +222,6 @@ display:
           exposed: false
           expose:
             label: ''
-            field_identifier: created
           granularity: second
           entity_type: node
           entity_field: created

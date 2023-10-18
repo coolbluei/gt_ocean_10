@@ -1,0 +1,18 @@
+uuid: d1f8ec27-8615-4499-a0aa-43e94017f9bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.faculty_related_news
+id: node.faculty_related_news.title
+field_name: title
+entity_type: node
+bundle: faculty_related_news
+label: 'News Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

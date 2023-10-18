@@ -1,4 +1,4 @@
-uuid: b2289f3e-941a-4e85-8b0c-c92ea8318785
+uuid: 2b662751-f92a-457d-8281-acea4569fbbf
 langcode: en
 status: true
 dependencies:
@@ -36,10 +36,7 @@ settings:
           name: Tools
           items:
             - Source
-  plugins:
-    drupallink:
-      linkit_enabled: false
-      linkit_profile: ''
+  plugins: {  }
 image_upload:
   status: false
   scheme: public

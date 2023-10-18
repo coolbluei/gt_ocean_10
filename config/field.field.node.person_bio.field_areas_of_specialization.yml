@@ -1,0 +1,22 @@
+uuid: efbffab0-e9cc-4248-a5ef-cfaa7983e6f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_areas_of_specialization
+    - node.type.person_bio
+  module:
+    - text
+id: node.person_bio.field_areas_of_specialization
+field_name: field_areas_of_specialization
+entity_type: node
+bundle: person_bio
+label: 'Areas of Specialization'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

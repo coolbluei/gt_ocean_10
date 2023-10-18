@@ -1,0 +1,15 @@
+uuid: e7266b02-77ad-4630-91d3-6504a3cdb8af
+langcode: en
+status: true
+dependencies: {  }
+name: slide_overlay_image
+label: 'Slide Overlay Image'
+effects:
+  988152f3-2021-414b-8a30-1c6be1246edc:
+    uuid: 988152f3-2021-414b-8a30-1c6be1246edc
+    id: image_scale
+    weight: 2
+    data:
+      width: null
+      height: 535
+      upscale: false

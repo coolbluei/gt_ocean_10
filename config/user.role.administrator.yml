@@ -3,30 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.minimal_html
-    - filter.format.text_editor_advanced
-    - filter.format.text_editor_basic
-    - filter.format.unfiltered_html
-    - node.type.article
-    - node.type.event
-    - node.type.gt_calendar_feed
-    - node.type.horizontal_landing_page
-    - node.type.multipurpose_page
     - node.type.page
-    - node.type.person
-    - node.type.super_block
-    - node.type.vertical_landing_page
-    - node.type.webform
   module:
     - block
-    - book
     - contextual
     - filter
     - node
     - path
-    - search
     - system
-    - taxonomy
     - views_ui
 _core:
   default_config_hash: YI6mxtWUak15TWzCAFn_xqTv9e-qqlJsf5E4QbgjVdo
@@ -41,46 +25,18 @@ permissions:
   - 'access site in maintenance mode'
   - 'access site reports'
   - 'access user profiles'
-  - 'add content to books'
   - 'administer blocks'
-  - 'administer book outlines'
-  - 'administer content types'
+  - 'administer filters'
   - 'administer menu'
   - 'administer nodes'
-  - 'administer taxonomy'
+  - 'administer permissions'
+  - 'administer url aliases'
+  - 'administer users'
   - 'administer views'
-  - 'bypass node access'
-  - 'create article content'
-  - 'create event content'
-  - 'create gt_calendar_feed content'
-  - 'create horizontal_landing_page content'
-  - 'create multipurpose_page content'
+  - 'change own username'
   - 'create page content'
-  - 'create person content'
-  - 'create super_block content'
   - 'create url aliases'
-  - 'create vertical_landing_page content'
-  - 'create webform content'
-  - 'delete any event content'
-  - 'delete any gt_calendar_feed content'
-  - 'delete any horizontal_landing_page content'
-  - 'delete any multipurpose_page content'
   - 'delete any page content'
-  - 'delete any super_block content'
-  - 'delete any vertical_landing_page content'
-  - 'delete any webform content'
-  - 'edit any article content'
-  - 'edit any gt_calendar_feed content'
-  - 'edit any horizontal_landing_page content'
-  - 'edit any multipurpose_page content'
   - 'edit any page content'
-  - 'edit any person content'
-  - 'edit any super_block content'
-  - 'edit any vertical_landing_page content'
-  - 'edit any webform content'
-  - 'search content'
-  - 'use text format minimal_html'
-  - 'use text format text_editor_advanced'
-  - 'use text format text_editor_basic'
-  - 'use text format unfiltered_html'
   - 'view own unpublished content'
+  - 'view the administration theme'

@@ -1,0 +1,8 @@
+uuid: 9996f2bb-b164-4295-981f-18501082d55f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Person Bio Type'
+vid: person_bio_type
+description: ''
+weight: 0

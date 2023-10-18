@@ -1,4 +1,4 @@
-uuid: cf09e91c-20b3-406c-8fe7-cd5784b63b03
+uuid: be91207e-4c13-41e4-a78f-a09ce7b1a192
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,13 @@ dependencies:
 third_party_settings:
   menu_ui:
     available_menus:
+      - gt-action-items
+      - gt-footer-links-1
+      - gt-footer-links-2
+      - gt-footer-links-3
+      - gt-footer-utility-links
       - main-menu
+      - menu-editor-menu
     parent: 'main-menu:0:'
 name: 'Multipurpose page'
 type: multipurpose_page

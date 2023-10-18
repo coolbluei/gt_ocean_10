@@ -1,0 +1,29 @@
+uuid: 55381401-77b5-474c-aa58-de5003db529d
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - seven
+id: seven_menu_menu_editor_menu
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-editor-menu'
+settings:
+  id: broken
+  label: ''
+  label_display: '0'
+  provider: core
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      3: '3'
+      4: '4'
+      5: '5'

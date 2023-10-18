@@ -1,0 +1,47 @@
+uuid: 6e4ff1fd-efee-4521-bae9-8a36feec2279
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ose_research_ideas.field_associated_faculty
+    - field.field.node.ose_research_ideas.field_media
+    - field.field.node.ose_research_ideas.field_ose_research_faculty
+    - field.field.node.ose_research_ideas.field_ose_research_project_desc
+    - field.field.node.ose_research_ideas.field_ose_research_project_name
+    - field.field.node.ose_research_ideas.field_project_name_short
+    - field.field.node.ose_research_ideas.field_research_theme
+    - node.type.ose_research_ideas
+  module:
+    - text
+    - user
+id: node.ose_research_ideas.default
+targetEntityType: node
+bundle: ose_research_ideas
+mode: default
+content:
+  field_associated_faculty:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_ose_research_project_desc:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_media: true
+  field_ose_research_faculty: true
+  field_ose_research_project_name: true
+  field_project_name_short: true
+  field_research_theme: true

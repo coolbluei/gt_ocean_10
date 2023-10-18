@@ -1,4 +1,4 @@
-uuid: ec7f4605-92b0-4979-afba-7dfb754ca831
+uuid: b55d2c45-cec6-4ff4-afb0-995249cf61ec
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ field_name: field_gtct_cs_title_placement
 entity_type: node
 bundle: gt_ct_carousel_slide
 label: 'Title Placement'
-description: 'Select a placement for the title. '
+description: 'Select a placement for the title. Choose None to hide the title box.'
 required: true
 translatable: false
 default_value:

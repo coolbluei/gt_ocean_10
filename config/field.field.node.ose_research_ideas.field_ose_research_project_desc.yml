@@ -1,0 +1,24 @@
+uuid: f3f6027c-2433-4486-850c-39aa24eeb7ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ose_research_project_desc
+    - node.type.ose_research_ideas
+  module:
+    - text
+id: node.ose_research_ideas.field_ose_research_project_desc
+field_name: field_ose_research_project_desc
+entity_type: node
+bundle: ose_research_ideas
+label: 'Project Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

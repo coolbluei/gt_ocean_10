@@ -1,10 +1,10 @@
-uuid: 1cb22992-25fb-4b97-851e-60ee46e392f5
+uuid: 3ccecc4c-2f13-446c-a3d3-70d7d281137a
 langcode: en
 status: true
 dependencies: {  }
 name: 'minimal HTML'
 format: minimal_html
-weight: -7
+weight: -9
 filters:
   filter_autop:
     id: filter_autop

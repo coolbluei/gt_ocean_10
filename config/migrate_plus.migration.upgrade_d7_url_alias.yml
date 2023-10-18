@@ -1,4 +1,4 @@
-uuid: c0ee02ea-d982-407e-a50e-3974c077dd50
+uuid: 39b308e9-1ef0-4aab-9da9-efe7a13ea125
 langcode: en
 status: true
 dependencies: {  }
@@ -45,32 +45,18 @@ process:
     -
       plugin: migration_lookup
       migration:
-        - upgrade_d7_node_complete_aed
-        - upgrade_d7_node_complete_aed_inspector
         - upgrade_d7_node_complete_article
-        - upgrade_d7_node_complete_asbestos_sample
-        - upgrade_d7_node_complete_book
-        - upgrade_d7_node_complete_building
-        - upgrade_d7_node_complete_building_all
-        - upgrade_d7_node_complete_building_dormgreek
-        - upgrade_d7_node_complete_document
-        - upgrade_d7_node_complete_document_linked
-        - upgrade_d7_node_complete_emergency_response
-        - upgrade_d7_node_complete_event
-        - upgrade_d7_node_complete_gt_calendar_feed
+        - upgrade_d7_node_complete_faculty_related_news
+        - upgrade_d7_node_complete_faq
+        - upgrade_d7_node_complete_feed
+        - upgrade_d7_node_complete_feed_item
         - upgrade_d7_node_complete_gt_ct_carousel
         - upgrade_d7_node_complete_gt_ct_carousel_slide
         - upgrade_d7_node_complete_horizontal_landing_page
-        - upgrade_d7_node_complete_minors_program
         - upgrade_d7_node_complete_multipurpose_page
-        - upgrade_d7_node_complete_node_gallery_gallery
-        - upgrade_d7_node_complete_node_gallery_item
+        - upgrade_d7_node_complete_ose_research_ideas
         - upgrade_d7_node_complete_page
-        - upgrade_d7_node_complete_panel
-        - upgrade_d7_node_complete_person
-        - upgrade_d7_node_complete_question
-        - upgrade_d7_node_complete_random_image
-        - upgrade_d7_node_complete_reportable_fire
+        - upgrade_d7_node_complete_person_bio
         - upgrade_d7_node_complete_super_block
         - upgrade_d7_node_complete_vertical_landing_page
         - upgrade_d7_node_complete_webform
@@ -93,61 +79,33 @@ destination:
 migration_dependencies:
   required: {  }
   optional:
-    - upgrade_d7_node_complete_aed
-    - upgrade_d7_node_complete_aed_inspector
     - upgrade_d7_node_complete_article
-    - upgrade_d7_node_complete_asbestos_sample
-    - upgrade_d7_node_complete_book
-    - upgrade_d7_node_complete_building
-    - upgrade_d7_node_complete_building_all
-    - upgrade_d7_node_complete_building_dormgreek
-    - upgrade_d7_node_complete_document
-    - upgrade_d7_node_complete_document_linked
-    - upgrade_d7_node_complete_emergency_response
-    - upgrade_d7_node_complete_event
-    - upgrade_d7_node_complete_gt_calendar_feed
+    - upgrade_d7_node_complete_faculty_related_news
+    - upgrade_d7_node_complete_faq
+    - upgrade_d7_node_complete_feed
+    - upgrade_d7_node_complete_feed_item
     - upgrade_d7_node_complete_gt_ct_carousel
     - upgrade_d7_node_complete_gt_ct_carousel_slide
     - upgrade_d7_node_complete_horizontal_landing_page
-    - upgrade_d7_node_complete_minors_program
     - upgrade_d7_node_complete_multipurpose_page
-    - upgrade_d7_node_complete_node_gallery_gallery
-    - upgrade_d7_node_complete_node_gallery_item
+    - upgrade_d7_node_complete_ose_research_ideas
     - upgrade_d7_node_complete_page
-    - upgrade_d7_node_complete_panel
-    - upgrade_d7_node_complete_person
-    - upgrade_d7_node_complete_question
-    - upgrade_d7_node_complete_random_image
-    - upgrade_d7_node_complete_reportable_fire
+    - upgrade_d7_node_complete_person_bio
     - upgrade_d7_node_complete_super_block
     - upgrade_d7_node_complete_vertical_landing_page
     - upgrade_d7_node_complete_webform
-    - upgrade_d7_node_complete_aed
-    - upgrade_d7_node_complete_aed_inspector
     - upgrade_d7_node_complete_article
-    - upgrade_d7_node_complete_asbestos_sample
-    - upgrade_d7_node_complete_book
-    - upgrade_d7_node_complete_building
-    - upgrade_d7_node_complete_building_all
-    - upgrade_d7_node_complete_building_dormgreek
-    - upgrade_d7_node_complete_document
-    - upgrade_d7_node_complete_document_linked
-    - upgrade_d7_node_complete_emergency_response
-    - upgrade_d7_node_complete_event
-    - upgrade_d7_node_complete_gt_calendar_feed
+    - upgrade_d7_node_complete_faculty_related_news
+    - upgrade_d7_node_complete_faq
+    - upgrade_d7_node_complete_feed
+    - upgrade_d7_node_complete_feed_item
     - upgrade_d7_node_complete_gt_ct_carousel
     - upgrade_d7_node_complete_gt_ct_carousel_slide
     - upgrade_d7_node_complete_horizontal_landing_page
-    - upgrade_d7_node_complete_minors_program
     - upgrade_d7_node_complete_multipurpose_page
-    - upgrade_d7_node_complete_node_gallery_gallery
-    - upgrade_d7_node_complete_node_gallery_item
+    - upgrade_d7_node_complete_ose_research_ideas
     - upgrade_d7_node_complete_page
-    - upgrade_d7_node_complete_panel
-    - upgrade_d7_node_complete_person
-    - upgrade_d7_node_complete_question
-    - upgrade_d7_node_complete_random_image
-    - upgrade_d7_node_complete_reportable_fire
+    - upgrade_d7_node_complete_person_bio
     - upgrade_d7_node_complete_super_block
     - upgrade_d7_node_complete_vertical_landing_page
     - upgrade_d7_node_complete_webform

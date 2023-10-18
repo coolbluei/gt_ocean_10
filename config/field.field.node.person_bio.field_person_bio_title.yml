@@ -1,0 +1,19 @@
+uuid: 781250a0-f57d-41d9-b5ad-59c77ae888a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person_bio_title
+    - node.type.person_bio
+id: node.person_bio.field_person_bio_title
+field_name: field_person_bio_title
+entity_type: node
+bundle: person_bio
+label: 'Faculty Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

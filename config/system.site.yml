@@ -1,12 +1,12 @@
 _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
-uuid: beda5c1f-a015-41a7-ab7f-f2ba29530470
-name: 'Environmental Health & Safety'
-mail: christina.tabor@ehs.gatech.edu
+uuid: ad8d7558-c578-4280-b95f-e37b5055aed2
+name: 'Ocean Science & Engineering | Georgia Institute of Technology | Atlanta, GA'
+mail: webteam@trimosolutions.com
 slogan: ''
 page:
-  403: /node/3
+  403: /node/4
   404: /node/4
   front: /node/1
 admin_compact_mode: false

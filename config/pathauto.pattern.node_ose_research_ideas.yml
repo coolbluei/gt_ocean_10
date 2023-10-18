@@ -1,0 +1,21 @@
+uuid: 8f99fb0f-2f45-4cc0-8873-827641c346cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_ose_research_ideas
+label: 'Content - Ose Research Ideas'
+type: 'canonical_entities:node'
+pattern: 'research-ideas/[node:title]'
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      ose_research_ideas: ose_research_ideas
+selection_logic: and
+weight: 0
+relationships: {  }

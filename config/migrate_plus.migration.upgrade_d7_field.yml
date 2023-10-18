@@ -1,4 +1,4 @@
-uuid: 6040b8af-25de-4ebe-a062-2c8923734a5b
+uuid: e0c479ee-02c8-4cbf-8138-f7902fc6ea3e
 langcode: en
 status: true
 dependencies: {  }
@@ -47,20 +47,12 @@ process:
           link_field: link_field
         image:
           image: image
-        email:
-          email: email
-        telephone:
-          telephone: telephone
-        taxonomy_term_reference:
-          taxonomy_term_reference: taxonomy_term_reference
         entityreference:
           entityreference: entityreference
-        file:
-          file: file
-        number_default:
-          number_default: number_default
-        datetime:
-          datetime: datetime
+        email:
+          email: email
+        name:
+          name: name
   cardinality:
     -
       plugin: get

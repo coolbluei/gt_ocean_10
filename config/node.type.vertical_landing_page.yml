@@ -1,4 +1,4 @@
-uuid: b327f066-3b94-4ccf-88a3-359e6ca2d46a
+uuid: a8972210-166f-446c-a112-96f3768bdb58
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,13 @@ dependencies:
 third_party_settings:
   menu_ui:
     available_menus:
+      - gt-action-items
+      - gt-footer-links-1
+      - gt-footer-links-2
+      - gt-footer-links-3
+      - gt-footer-utility-links
       - main-menu
+      - menu-editor-menu
     parent: 'main-menu:0:'
 name: 'Vertical landing page'
 type: vertical_landing_page

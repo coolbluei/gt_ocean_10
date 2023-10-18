@@ -1,4 +1,4 @@
-uuid: e438cf03-8a7d-48a8-a604-b27261b37d14
+uuid: c7b89530-a96c-4e51-9dbe-ffb8c0688be3
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ field_name: field_nbsb_jump_link
 entity_type: node
 bundle: super_block
 label: 'Jump link'
-description: 'Provide the URL and title for a jump link (if required.) This will serve as the standard "read more" link that typically sits below the teaser text.'
+description: 'Provide the URL and title for a jump link (if required.) Be sure to provide relevant title text to provide context for disabled users. See <a href="https://www.nngroup.com/articles/learn-more-links/">https://www.nngroup.com/articles/learn-more-links/</a> for more information.'
 required: false
 translatable: false
 default_value: {  }

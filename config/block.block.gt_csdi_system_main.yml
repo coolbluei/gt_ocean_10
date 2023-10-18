@@ -1,0 +1,20 @@
+uuid: 6cd68007-8baf-4daf-a5bd-de2fa0eed556
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - gt_csdi
+id: gt_csdi_system_main
+theme: gt_csdi
+region: ''
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

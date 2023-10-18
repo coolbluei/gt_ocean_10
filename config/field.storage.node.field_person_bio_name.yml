@@ -1,0 +1,19 @@
+uuid: a10f560e-9ab1-45b3-8e90-ffefcb2145f2
+langcode: und
+status: true
+dependencies:
+  module:
+    - name
+    - node
+id: node.field_person_bio_name
+field_name: field_person_bio_name
+entity_type: node
+type: name
+settings: {  }
+module: name
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

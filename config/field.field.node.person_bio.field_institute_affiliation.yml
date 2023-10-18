@@ -1,0 +1,19 @@
+uuid: 2886f66c-6d9a-4953-a808-c268c2df6c3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_institute_affiliation
+    - node.type.person_bio
+id: node.person_bio.field_institute_affiliation
+field_name: field_institute_affiliation
+entity_type: node
+bundle: person_bio
+label: 'Institute Affiliation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

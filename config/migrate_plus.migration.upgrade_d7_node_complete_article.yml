@@ -1,4 +1,4 @@
-uuid: cb2b3d47-8196-4e3d-ac7c-2be97410588f
+uuid: 5e33842b-9a4f-434c-8d87-5f70f1bbd173
 langcode: en
 status: true
 dependencies: {  }
@@ -80,16 +80,6 @@ process:
     -
       plugin: get
       source: body
-  field_newsletter_issue:
-    -
-      plugin: sub_process
-      source: field_newsletter_issue
-      process:
-        target_id: tid
-  field_ehs_office_main_only:
-    -
-      plugin: get
-      source: field_ehs_office_main_only
 destination:
   plugin: 'entity_complete:node'
   translations: true

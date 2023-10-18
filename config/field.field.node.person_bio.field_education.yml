@@ -1,0 +1,19 @@
+uuid: 41828532-1dd3-42b9-9120-5eef4dfceecc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_education
+    - node.type.person_bio
+id: node.person_bio.field_education
+field_name: field_education
+entity_type: node
+bundle: person_bio
+label: Education
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

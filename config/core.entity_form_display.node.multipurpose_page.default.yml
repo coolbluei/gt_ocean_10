@@ -1,4 +1,4 @@
-uuid: 9df29946-fb13-4e3b-91bb-b23df94e070f
+uuid: 85d3567c-a04d-4053-ab37-c6d209fe0b13
 langcode: en
 status: true
 dependencies:
@@ -23,7 +23,7 @@ content:
     third_party_settings: {  }
   field_body_1:
     type: text_textarea_with_summary
-    weight: 1
+    weight: 2
     region: content
     settings:
       rows: 9
@@ -33,7 +33,7 @@ content:
     third_party_settings: {  }
   field_body_2:
     type: text_textarea
-    weight: 4
+    weight: 5
     region: content
     settings:
       rows: 10
@@ -41,7 +41,7 @@ content:
     third_party_settings: {  }
   field_body_3:
     type: text_textarea
-    weight: 7
+    weight: 8
     region: content
     settings:
       rows: 10

@@ -1,0 +1,11 @@
+uuid: beb41179-6d91-463e-a0c5-cf6290171b13
+langcode: en
+status: true
+dependencies: {  }
+name: 'Feed item'
+type: feed_item
+description: 'This content type is being used for automatically aggregated content from feeds.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

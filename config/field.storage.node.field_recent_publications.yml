@@ -1,0 +1,19 @@
+uuid: ca683f59-7e34-4a0f-9536-08f91dd52068
+langcode: und
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_recent_publications
+field_name: field_recent_publications
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

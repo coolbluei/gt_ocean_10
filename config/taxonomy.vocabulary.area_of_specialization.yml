@@ -1,0 +1,8 @@
+uuid: bb76ea43-01b8-4d36-ad02-9d5b01efc2d6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Area of Specialization'
+vid: area_of_specialization
+description: ''
+weight: 0

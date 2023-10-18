@@ -1,4 +1,4 @@
-uuid: 8fed0a23-c5e3-4272-8328-3ed6580e2b34
+uuid: e4da3084-2e3e-4e75-b403-af222d768b07
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
 id: taxonomy_term
 label: 'Taxonomy term - default'
 type: 'canonical_entities:taxonomy_term'
-pattern: '[term:vocabulary]/[term:name]'
+pattern: 'tags/[term:vocabulary]/[term:name]'
 selection_criteria: {  }
 selection_logic: and
 weight: 0

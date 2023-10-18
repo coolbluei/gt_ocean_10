@@ -141,8 +141,6 @@ display:
           id: status
           expose:
             operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
           group: 1
         type:
           id: type
@@ -153,9 +151,6 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
-          expose:
-            operator_limit_selection: false
-            operator_list: {  }
       sorts:
         created:
           id: created
@@ -171,7 +166,6 @@ display:
           exposed: false
           expose:
             label: ''
-            field_identifier: created
           granularity: second
       title: 'Views Grid'
       header: {  }

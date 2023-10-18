@@ -1,0 +1,23 @@
+uuid: eede7271-0d4e-41ef-9ade-c141d83b043e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person_bio_related_links
+    - node.type.person_bio
+  module:
+    - link
+id: node.person_bio.field_person_bio_related_links
+field_name: field_person_bio_related_links
+entity_type: node
+bundle: person_bio
+label: 'Related Bio Websites'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

@@ -1,4 +1,4 @@
-uuid: ee73db89-8b59-4faf-a225-45f7991be5ff
+uuid: 6742800e-cf3d-4450-86e7-3ff38241d2db
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,6 @@ name: Carousel
 type: gt_ct_carousel
 description: 'A rotating carousel that uses the Carousel Slide content type.'
 help: 'Provide the carousel slides that this carousel uses, and order them in the way that you want them to appear (order goes from the top of the list to the bottom.) '
-new_revision: false
+new_revision: true
 preview_mode: 1
 display_submitted: false

@@ -1,0 +1,30 @@
+uuid: 50c5db63-0ebc-4d30-95a9-662b52fde9b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person_bio_bio_type
+    - node.type.person_bio
+    - taxonomy.vocabulary.person_bio_type
+id: node.person_bio.field_person_bio_bio_type
+field_name: field_person_bio_bio_type
+entity_type: node
+bundle: person_bio
+label: 'Bio Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      person_bio_type: person_bio_type
+    sort:
+      field: _none
+      direction: ASC
+    behaviors:
+      views-select-list:
+        status: 0
+field_type: entity_reference

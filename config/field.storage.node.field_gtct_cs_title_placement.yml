@@ -1,4 +1,4 @@
-uuid: 3e00bd08-f67e-43f9-82b6-f6b3ac3850bd
+uuid: 5e8b3d28-0eb2-4d41-9183-865ce540c110
 langcode: und
 status: true
 dependencies:
@@ -17,6 +17,9 @@ settings:
     -
       value: right
       label: Right
+    -
+      value: none
+      label: None
   allowed_values_function: ''
 module: options
 locked: false

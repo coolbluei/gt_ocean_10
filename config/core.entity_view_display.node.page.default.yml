@@ -10,11 +10,12 @@ dependencies:
     - layout_builder
     - layout_builder_restrictions
     - layout_discovery
+    - text
     - user
 third_party_settings:
   layout_builder:
-    allow_custom: true
     enabled: true
+    allow_custom: true
     sections:
       -
         layout_id: layout_onecol
@@ -27,22 +28,38 @@ third_party_settings:
             configuration:
               id: 'field_block:node:page:body'
               label: Body
-              provider: layout_builder
               label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
               formatter:
-                label: hidden
                 type: text_default
+                label: hidden
                 settings: {  }
                 third_party_settings:
                   field_formatter_class:
                     class: ''
+            weight: 1
+            additional: {  }
+          3e13a349-8ca8-4b18-82bd-3ad6d70d0cb0:
+            uuid: 3e13a349-8ca8-4b18-82bd-3ad6d70d0cb0
+            region: content
+            configuration:
+              id: 'field_block:node:page:body'
+              label_display: '0'
               context_mapping:
                 entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 2
             additional: {  }
-            weight: 1
         third_party_settings: {  }
   layout_builder_restrictions:
     entity_view_mode_restriction:
+      allowed_layouts: {  }
       allowed_blocks:
         'Chaos Tools': {  }
         'Content fields': {  }
@@ -58,17 +75,22 @@ third_party_settings:
         User: {  }
         'User fields': {  }
         core: {  }
-      allowed_layouts: {  }
 id: node.page.default
 targetEntityType: node
 bundle: page
 mode: default
 content:
-  links:
-    weight: 100
+  body:
+    type: text_default
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
     region: content
 hidden:
-  body: true
   layout_builder__layout: true

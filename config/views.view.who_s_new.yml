@@ -1,4 +1,4 @@
-uuid: 51d45ee4-a399-46b0-b120-448751a72132
+uuid: cdc74b6f-eeb5-4a42-aae3-92da4eb4d5c4
 langcode: en
 status: true
 dependencies:
@@ -97,8 +97,6 @@ display:
           id: status
           expose:
             operator: '0'
-            operator_limit_selection: false
-            operator_list: {  }
           group: 1
           plugin_id: boolean
           entity_type: user
@@ -130,8 +128,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-            operator_limit_selection: false
-            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -159,7 +155,6 @@ display:
           exposed: false
           expose:
             label: ''
-            field_identifier: created
           granularity: second
           plugin_id: date
           entity_type: user

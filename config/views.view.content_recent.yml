@@ -1,4 +1,4 @@
-uuid: 249515dd-1c77-422e-9cf5-827a69751f64
+uuid: a87e3694-3870-4589-8878-f9cb3efd6602
 langcode: en
 status: true
 dependencies:
@@ -187,8 +187,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-            operator_limit_selection: false
-            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -228,8 +226,6 @@ display:
             remember_roles:
               authenticated: authenticated
             reduce: false
-            operator_limit_selection: false
-            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -257,7 +253,6 @@ display:
           exposed: false
           expose:
             label: ''
-            field_identifier: changed
           granularity: second
           entity_type: node
           entity_field: changed

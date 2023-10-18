@@ -7,7 +7,13 @@ dependencies:
 third_party_settings:
   menu_ui:
     available_menus:
+      - gt-action-items
+      - gt-footer-links-1
+      - gt-footer-links-2
+      - gt-footer-links-3
+      - gt-footer-utility-links
       - main-menu
+      - menu-editor-menu
     parent: 'main-menu:0:'
 _core:
   default_config_hash: _z3Ch0AxSvwgUcbg02iOKl_Q8PAxirr6lbEpQFsuPNs

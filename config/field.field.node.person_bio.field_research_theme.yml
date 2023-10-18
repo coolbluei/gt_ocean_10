@@ -1,0 +1,30 @@
+uuid: 692e0717-c938-455d-a09c-5f27104cb92f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_research_theme
+    - node.type.person_bio
+    - taxonomy.vocabulary.research_themes_type
+id: node.person_bio.field_research_theme
+field_name: field_research_theme
+entity_type: node
+bundle: person_bio
+label: 'Research Theme'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      research_themes_type: research_themes_type
+    sort:
+      field: _none
+      direction: ASC
+    behaviors:
+      views-select-list:
+        status: 0
+field_type: entity_reference

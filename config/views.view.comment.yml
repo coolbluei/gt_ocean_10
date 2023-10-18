@@ -1,4 +1,4 @@
-uuid: d0d7c255-156c-44ba-9abf-53eccc8a274f
+uuid: 1aab9763-48fb-4d23-8122-27c32eaaab92
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - comment
     - user
 _core:
-  default_config_hash: CgXkKY33fd-yaHz89du2hSw6MJOoIeNUJ-VHE5BiSdQ
+  default_config_hash: WFURZFZFHS9S7tEJJqOd6ucYexi84JiyQxE5suLP7D8
 id: comment
 label: Comments
 module: comment
@@ -394,6 +394,15 @@ display:
             date_format: short
             custom_date_format: ''
             timezone: ''
+            tooltip:
+              date_format: long
+              custom_date_format: ''
+            time_diff:
+              enabled: false
+              future_format: '@interval hence'
+              past_format: '@interval ago'
+              granularity: 2
+              refresh: 60
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -1272,6 +1281,15 @@ display:
             date_format: short
             custom_date_format: ''
             timezone: ''
+            tooltip:
+              date_format: long
+              custom_date_format: ''
+            time_diff:
+              enabled: false
+              future_format: '@interval hence'
+              past_format: '@interval ago'
+              granularity: 2
+              refresh: 60
           group_column: value
           group_columns: {  }
           group_rows: true

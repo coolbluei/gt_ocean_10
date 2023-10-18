@@ -1,4 +1,4 @@
-uuid: b945cec4-0c72-4457-85b6-eeff6ace71ed
+uuid: 441e427e-3b65-4cbb-8344-20a0db743e09
 langcode: en
 status: true
 dependencies: {  }
@@ -15,7 +15,7 @@ source:
   plugin: d7_file
   scheme: public
   constants:
-    source_base_path: /app/web/legacy
+    source_base_path: /app/legacy/
 process:
   fid:
     -

@@ -1,0 +1,19 @@
+uuid: 9f562e37-58e3-4620-84ce-5a823cb62d12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_research_keywords
+    - node.type.person_bio
+id: node.person_bio.field_research_keywords
+field_name: field_research_keywords
+entity_type: node
+bundle: person_bio
+label: 'Research Keywords'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

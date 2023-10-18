@@ -1,4 +1,4 @@
-uuid: 6065b9a2-ef40-4c92-8540-20557eea2394
+uuid: 9eedfdaa-d9e8-4ee8-b6d1-a3c2a4d1e9ae
 langcode: en
 status: true
 dependencies:
@@ -80,7 +80,6 @@ display:
           exposed: false
           expose:
             label: ''
-            field_identifier: sticky
         created:
           id: created
           table: taxonomy_index
@@ -93,7 +92,6 @@ display:
           exposed: false
           expose:
             label: ''
-            field_identifier: created
           granularity: second
       arguments:
         tid:
@@ -163,8 +161,6 @@ display:
             remember_roles:
               authenticated: authenticated
             reduce: false
-            operator_limit_selection: false
-            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -203,8 +199,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-            operator_limit_selection: false
-            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''

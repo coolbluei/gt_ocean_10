@@ -1,0 +1,115 @@
+uuid: c2a17091-96d8-4c40-a17d-89c2db463fc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.person_bio.field_areas_of_specialization
+    - field.field.node.person_bio.field_education
+    - field.field.node.person_bio.field_faculty_title_2
+    - field.field.node.person_bio.field_home_school_code
+    - field.field.node.person_bio.field_institute_affiliation
+    - field.field.node.person_bio.field_leadership_type
+    - field.field.node.person_bio.field_person_bio_bio_type
+    - field.field.node.person_bio.field_person_bio_email
+    - field.field.node.person_bio.field_person_bio_name
+    - field.field.node.person_bio.field_person_bio_phone
+    - field.field.node.person_bio.field_person_bio_photo
+    - field.field.node.person_bio.field_person_bio_related_links
+    - field.field.node.person_bio.field_person_bio_text
+    - field.field.node.person_bio.field_person_bio_title
+    - field.field.node.person_bio.field_recent_publications
+    - field.field.node.person_bio.field_research_keywords
+    - field.field.node.person_bio.field_research_theme
+    - field.field.node.person_bio.field_social_media
+    - image.style.thumbnail
+    - node.type.person_bio
+  module:
+    - image
+    - link
+    - name
+    - user
+id: node.person_bio.teaser
+targetEntityType: node
+bundle: person_bio
+mode: teaser
+content:
+  field_person_bio_email:
+    type: email_mailto
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_person_bio_name:
+    type: name_default
+    label: hidden
+    settings:
+      format: default
+      markup: '0'
+      list_format: ''
+      link_target: ''
+      preferred_field_reference: ''
+      preferred_field_reference_separator: ', '
+      alternative_field_reference: ''
+      alternative_field_reference_separator: ', '
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_person_bio_phone:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_person_bio_photo:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_person_bio_related_links:
+    type: link
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_person_bio_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_areas_of_specialization: true
+  field_education: true
+  field_faculty_title_2: true
+  field_home_school_code: true
+  field_institute_affiliation: true
+  field_leadership_type: true
+  field_person_bio_bio_type: true
+  field_person_bio_text: true
+  field_recent_publications: true
+  field_research_keywords: true
+  field_research_theme: true
+  field_social_media: true

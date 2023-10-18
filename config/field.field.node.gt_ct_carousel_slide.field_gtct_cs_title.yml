@@ -1,4 +1,4 @@
-uuid: f60d29dc-397f-4d95-b2ed-65ae199a705a
+uuid: d408c8c5-1a6f-469a-8e25-3ce26eaf44bc
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ field_name: field_gtct_cs_title
 entity_type: node
 bundle: gt_ct_carousel_slide
 label: 'Slide Title'
-description: 'Provide a title for the slide. Depending on title treatment settings this will appear as the main title, or just be used for SEO/accessibility purposes.'
+description: 'Provide a title for the slide. If you provide a link, this title will appear in the Title Box, otherwise it will be used to describe the main background image for SEO/accessibility purposes.'
 required: true
 translatable: false
 default_value: {  }

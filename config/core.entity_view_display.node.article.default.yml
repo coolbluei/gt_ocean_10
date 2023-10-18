@@ -4,9 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.article.body
-    - field.field.node.article.field_ehs_office_main_only
     - field.field.node.article.field_image
-    - field.field.node.article.field_newsletter_issue
     - field.field.node.article.field_tags
     - image.style.large
     - node.type.article
@@ -26,7 +24,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 101
     region: content
   field_image:
     type: image
@@ -34,18 +32,8 @@ content:
     settings:
       image_link: ''
       image_style: large
-      image_loading:
-        attribute: lazy
     third_party_settings: {  }
     weight: -1
-    region: content
-  field_newsletter_issue:
-    type: entity_reference_label
-    label: inline
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 2
     region: content
   field_tags:
     type: entity_reference_label
@@ -60,5 +48,4 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden:
-  field_ehs_office_main_only: true
+hidden: {  }

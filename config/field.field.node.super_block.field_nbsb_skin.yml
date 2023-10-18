@@ -1,4 +1,4 @@
-uuid: bf6733af-9d49-4b7c-bb5d-c7ff727f06e1
+uuid: e8e2f0d2-99a4-4ee5-a63d-004a2714bd2a
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ field_name: field_nbsb_skin
 entity_type: node
 bundle: super_block
 label: Skin
-description: 'Select a "skin" for this super block. <strong>Note:</strong> standard appearance classes will <strong><em>NOT</em></strong> be applied to Super Blocks when editing the blocks settings, but block layout options will apply.'
+description: 'Select a "skin" for this super block. <strong>Note:</strong> standard appearance classes (promotional block) and layout (widths) now <strong>will</strong> be applied to Super Blocks when editing the blocks settings.'
 required: true
 translatable: false
 default_value:

@@ -1,4 +1,4 @@
-uuid: a46a45d3-992f-44c9-8b59-01e4e54853dc
+uuid: 090500aa-4f8e-4502-90d5-113adb332dbe
 langcode: en
 status: true
 dependencies: {  }
@@ -10,7 +10,7 @@ migration_tags:
   - 'Drupal 7'
   - Content
 migration_group: migrate_drupal_7
-label: 'Custom blocks'
+label: 'Content blocks'
 source:
   plugin: d7_block_custom
 process:

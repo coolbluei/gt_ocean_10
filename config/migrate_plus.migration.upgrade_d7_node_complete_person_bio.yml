@@ -1,0 +1,168 @@
+uuid: 70c65447-8121-4c03-9614-8f4b2c9f89e8
+langcode: en
+status: true
+dependencies: {  }
+id: upgrade_d7_node_complete_person_bio
+class: Drupal\node\Plugin\migrate\D7NodeTranslation
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 7'
+  - Content
+migration_group: migrate_drupal_7
+label: 'Node complete (Person Bio)'
+source:
+  plugin: d7_node_complete
+  node_type: person_bio
+process:
+  nid:
+    -
+      plugin: get
+      source: tnid
+  vid:
+    -
+      plugin: get
+      source: vid
+  langcode:
+    -
+      plugin: default_value
+      source: language
+      default_value: und
+  title:
+    -
+      plugin: get
+      source: title
+  uid:
+    -
+      plugin: get
+      source: node_uid
+  status:
+    -
+      plugin: get
+      source: status
+  created:
+    -
+      plugin: get
+      source: created
+  changed:
+    -
+      plugin: get
+      source: timestamp
+  promote:
+    -
+      plugin: get
+      source: promote
+  sticky:
+    -
+      plugin: get
+      source: sticky
+  revision_uid:
+    -
+      plugin: get
+      source: revision_uid
+  revision_log:
+    -
+      plugin: get
+      source: log
+  revision_timestamp:
+    -
+      plugin: get
+      source: timestamp
+  content_translation_source:
+    -
+      plugin: get
+      source: source_langcode
+  comment_node_person_bio/0/status:
+    -
+      plugin: get
+      source: comment
+  field_person_bio_bio_type:
+    -
+      plugin: get
+      source: field_person_bio_bio_type
+  field_person_bio_email:
+    -
+      plugin: sub_process
+      source: field_person_bio_email
+      process:
+        value: email
+  field_person_bio_name:
+    -
+      plugin: get
+      source: field_person_bio_name
+  field_person_bio_phone:
+    -
+      plugin: get
+      source: field_person_bio_phone
+  field_person_bio_photo:
+    -
+      plugin: sub_process
+      source: field_person_bio_photo
+      process:
+        target_id: fid
+        alt: alt
+        title: title
+        width: width
+        height: height
+  field_person_bio_related_links:
+    -
+      plugin: field_link
+      source: field_person_bio_related_links
+  field_person_bio_text:
+    -
+      plugin: get
+      source: field_person_bio_text
+  field_person_bio_title:
+    -
+      plugin: get
+      source: field_person_bio_title
+  field_areas_of_specialization:
+    -
+      plugin: get
+      source: field_areas_of_specialization
+  field_recent_publications:
+    -
+      plugin: field_link
+      source: field_recent_publications
+  field_institute_affiliation:
+    -
+      plugin: get
+      source: field_institute_affiliation
+  field_leadership_type:
+    -
+      plugin: get
+      source: field_leadership_type
+  field_social_media:
+    -
+      plugin: field_link
+      source: field_social_media
+  field_faculty_title_2:
+    -
+      plugin: get
+      source: field_faculty_title_2
+  field_research_keywords:
+    -
+      plugin: get
+      source: field_research_keywords
+  field_education:
+    -
+      plugin: get
+      source: field_education
+  field_home_school_code:
+    -
+      plugin: get
+      source: field_home_school_code
+  field_research_theme:
+    -
+      plugin: get
+      source: field_research_theme
+destination:
+  plugin: 'entity_complete:node'
+  translations: true
+  default_bundle: person_bio
+migration_dependencies:
+  required:
+    - upgrade_d7_user
+    - upgrade_d7_node_type
+  optional:
+    - upgrade_d7_field_instance
