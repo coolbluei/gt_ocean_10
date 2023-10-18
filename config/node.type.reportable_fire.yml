@@ -1,0 +1,16 @@
+uuid: 6c05c25a-f60a-4a8c-a045-8194a556c45f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: 'Reportable Fire'
+type: reportable_fire
+description: 'This content type is for fires that must be reported per Clery Act.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

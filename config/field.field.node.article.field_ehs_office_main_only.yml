@@ -1,0 +1,32 @@
+uuid: 66eb24f5-584e-4321-811f-38b3934ed726
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ehs_office_main_only
+    - node.type.article
+id: node.article.field_ehs_office_main_only
+field_name: field_ehs_office_main_only
+entity_type: node
+bundle: article
+label: 'EHS Office'
+description: 'Which EHS office does this article most relate to?'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    view:
+      view_name: ehs_offices
+      display_name: entityreference_1
+      args: {  }
+    behaviors:
+      views-select-list:
+        status: 0
+field_type: entity_reference

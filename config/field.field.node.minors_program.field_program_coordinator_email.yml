@@ -1,0 +1,19 @@
+uuid: 2fca3207-f160-41d7-83a6-7893c9efa420
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_program_coordinator_email
+    - node.type.minors_program
+id: node.minors_program.field_program_coordinator_email
+field_name: field_program_coordinator_email
+entity_type: node
+bundle: minors_program
+label: Email
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

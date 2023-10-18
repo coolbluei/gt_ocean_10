@@ -1,0 +1,21 @@
+uuid: 923cf10c-2f7b-4be6-a6e1-bb84e71168f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pads_expiration_date
+    - node.type.aed
+  module:
+    - datetime
+id: node.aed.field_pads_expiration_date
+field_name: field_pads_expiration_date
+entity_type: node
+bundle: aed
+label: 'Pads Expiration Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

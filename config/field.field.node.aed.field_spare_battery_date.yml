@@ -1,0 +1,21 @@
+uuid: 32efa6ef-88ff-4912-a428-39d72f7977ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_spare_battery_date
+    - node.type.aed
+  module:
+    - datetime
+id: node.aed.field_spare_battery_date
+field_name: field_spare_battery_date
+entity_type: node
+bundle: aed
+label: 'Spare Battery Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

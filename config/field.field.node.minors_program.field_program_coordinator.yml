@@ -1,0 +1,19 @@
+uuid: 93af6c4f-53d6-407a-98a2-d237c54c303d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_program_coordinator
+    - node.type.minors_program
+id: node.minors_program.field_program_coordinator
+field_name: field_program_coordinator
+entity_type: node
+bundle: minors_program
+label: Name
+description: 'Name of the primary contact for this application'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

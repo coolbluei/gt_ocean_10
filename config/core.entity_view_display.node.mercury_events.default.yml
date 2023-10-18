@@ -1,0 +1,28 @@
+uuid: adb608f4-9195-4d6d-941d-d4f169280406
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mercury_events.body
+    - node.type.mercury_events
+  module:
+    - text
+    - user
+id: node.mercury_events.default
+targetEntityType: node
+bundle: mercury_events
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

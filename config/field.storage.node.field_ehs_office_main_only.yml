@@ -1,0 +1,20 @@
+uuid: 31623d91-795f-415e-90a8-1a173c72d210
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_ehs_office_main_only
+field_name: field_ehs_office_main_only
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

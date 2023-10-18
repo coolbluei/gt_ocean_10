@@ -1,0 +1,19 @@
+uuid: 5494ccc1-64ad-4b1c-be8b-4a05eb717014
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bldg_name
+    - node.type.building_all
+id: node.building_all.field_bldg_name
+field_name: field_bldg_name
+entity_type: node
+bundle: building_all
+label: 'Building Name'
+description: 'Full name of Building from Space Planning (CPSM) website.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

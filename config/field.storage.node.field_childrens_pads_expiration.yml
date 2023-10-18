@@ -1,0 +1,20 @@
+uuid: 0fb9d373-a580-402e-ac92-c023b2ca1670
+langcode: und
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_childrens_pads_expiration
+field_name: field_childrens_pads_expiration
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 077185bd-2fc3-40ca-8a4c-515eb9f7f767
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.node_gallery_item
+  module:
+    - text
+id: node.node_gallery_item.body
+field_name: body
+entity_type: node
+bundle: node_gallery_item
+label: Caption
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

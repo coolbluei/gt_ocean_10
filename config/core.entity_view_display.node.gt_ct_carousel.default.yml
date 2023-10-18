@@ -1,0 +1,29 @@
+uuid: c26a23d0-822d-4be6-830a-1628599fc048
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gt_ct_carousel.field_gtct_crsl_slides
+    - node.type.gt_ct_carousel
+  module:
+    - user
+id: node.gt_ct_carousel.default
+targetEntityType: node
+bundle: gt_ct_carousel
+mode: default
+content:
+  field_gtct_crsl_slides:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

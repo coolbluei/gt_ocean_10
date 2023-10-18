@@ -1,0 +1,28 @@
+uuid: 21fa04f0-a95a-4dc0-85c3-7f8f596efc60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.building.body
+    - node.type.building
+  module:
+    - text
+    - user
+id: node.building.default
+targetEntityType: node
+bundle: building
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

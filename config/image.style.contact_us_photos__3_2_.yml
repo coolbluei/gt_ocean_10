@@ -1,0 +1,15 @@
+uuid: 3d8e5dbe-766c-42ce-ae1b-cbae2abcfaf5
+langcode: en
+status: true
+dependencies: {  }
+name: contact_us_photos__3_2_
+label: 'Contact Us photos (3:2)'
+effects:
+  46407110-61a4-477e-92e9-6a99f8ed79e4:
+    uuid: 46407110-61a4-477e-92e9-6a99f8ed79e4
+    id: image_scale
+    weight: 1
+    data:
+      width: 200
+      height: 300
+      upscale: true

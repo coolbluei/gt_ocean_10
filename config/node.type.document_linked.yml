@@ -1,0 +1,18 @@
+uuid: 3199d7e9-e15a-4075-8088-012790aaddf2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+    parent: 'main-menu:0:'
+name: Document-Linked
+type: document_linked
+description: 'A document accessible via link, not download'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

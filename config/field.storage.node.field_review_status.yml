@@ -1,0 +1,39 @@
+uuid: 004dd0ba-cc7c-45bb-98ad-2c37a5092f26
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_review_status
+field_name: field_review_status
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: initially_submitted
+      label: 'Initially Submitted'
+    -
+      value: waiting_documents
+      label: 'Waiting on Documents'
+    -
+      value: in_review
+      label: 'In Review'
+    -
+      value: awaiting_signature
+      label: 'Awaiting Signature'
+    -
+      value: approved
+      label: Approved
+    -
+      value: pending_modification
+      label: 'Pending Modification'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

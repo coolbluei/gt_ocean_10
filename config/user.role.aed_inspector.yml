@@ -1,0 +1,9 @@
+uuid: d9c7ecc8-e143-498d-abc7-a2a17cffe935
+langcode: en
+status: true
+dependencies: {  }
+id: aed_inspector
+label: 'AED Inspector'
+weight: 8
+is_admin: null
+permissions: {  }

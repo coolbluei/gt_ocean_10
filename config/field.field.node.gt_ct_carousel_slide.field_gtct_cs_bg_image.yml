@@ -1,0 +1,38 @@
+uuid: 16f7a21b-428d-41b6-a87e-b5d3d3886ade
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gtct_cs_bg_image
+    - node.type.gt_ct_carousel_slide
+  module:
+    - image
+id: node.gt_ct_carousel_slide.field_gtct_cs_bg_image
+field_name: field_gtct_cs_bg_image
+entity_type: node
+bundle: gt_ct_carousel_slide
+label: 'Background Image'
+description: "If required, provide a background image for this slide. Optimum dimensions are ~2000px wide by ~750px tall, but make sure it's optimized to be the smallest file size."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: uploads/images/carousel_slides/bg
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

@@ -1,0 +1,14 @@
+uuid: 4c26e98e-f3ab-418a-9c12-02760fe9fb78
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.gt_calendar_manager
+  module:
+    - user
+id: user_add_role_action.gt_calendar_manager
+label: 'Add the GT Calendar Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gt_calendar_manager

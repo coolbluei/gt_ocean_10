@@ -1,0 +1,16 @@
+uuid: 1b80b0aa-01d0-4871-8dc5-45adfe611099
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: Building-DormGreek
+type: building_dormgreek
+description: 'GT buildings that are either dorms or Greek houses (on or off campus)'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

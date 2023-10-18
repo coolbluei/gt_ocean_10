@@ -1,0 +1,19 @@
+uuid: c3928a6b-2d61-4e90-895b-38ae4d2d566b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_summary_sentence
+    - node.type.event
+id: node.event.field_event_summary_sentence
+field_name: field_event_summary_sentence
+entity_type: node
+bundle: event
+label: 'Summary sentence'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,10 @@
+uuid: 2d70e7a5-8479-469a-8962-8c343f54ec03
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.ical
+label: ical
+targetEntityType: node
+cache: true

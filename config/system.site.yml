@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
+langcode: en
+uuid: beda5c1f-a015-41a7-ab7f-f2ba29530470
+name: 'Environmental Health & Safety'
+mail: christina.tabor@ehs.gatech.edu
+slogan: ''
+page:
+  403: /node/3
+  404: /node/4
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

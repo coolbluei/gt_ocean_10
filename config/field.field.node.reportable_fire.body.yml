@@ -1,0 +1,23 @@
+uuid: 95d75cde-e90e-43f0-90ba-1164c06f13f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.reportable_fire
+  module:
+    - text
+id: node.reportable_fire.body
+field_name: body
+entity_type: node
+bundle: reportable_fire
+label: 'Description of fire'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

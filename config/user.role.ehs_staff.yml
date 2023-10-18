@@ -1,0 +1,32 @@
+uuid: b86e73db-0b09-4ca0-b409-5c1834cef427
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.minimal_html
+    - filter.format.text_editor_advanced
+    - filter.format.text_editor_basic
+    - node.type.aed
+    - node.type.book
+    - node.type.minors_program
+    - node.type.reportable_fire
+  module:
+    - filter
+    - node
+id: ehs_staff
+label: 'EHS Staff'
+weight: 6
+is_admin: null
+permissions:
+  - 'access user profiles'
+  - 'administer filters'
+  - 'administer nodes'
+  - 'create aed content'
+  - 'create reportable_fire content'
+  - 'edit any aed content'
+  - 'edit any book content'
+  - 'edit any minors_program content'
+  - 'edit own reportable_fire content'
+  - 'use text format minimal_html'
+  - 'use text format text_editor_advanced'
+  - 'use text format text_editor_basic'

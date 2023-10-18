@@ -1,0 +1,23 @@
+uuid: 825a73c1-f3fd-475f-bb60-520f26b94498
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_nodeid
+    - node.type.event
+id: node.event.field_event_nodeid
+field_name: field_event_nodeid
+entity_type: node
+bundle: event
+label: 'Mercury ID'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

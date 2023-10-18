@@ -1,0 +1,19 @@
+uuid: 20199e9c-6cf5-460c-b5d5-de09a22f1173
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.aed
+id: node.aed.field_location
+field_name: field_location
+entity_type: node
+bundle: aed
+label: Location
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

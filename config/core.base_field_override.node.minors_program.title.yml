@@ -1,0 +1,18 @@
+uuid: 97a97bf9-6889-4282-a98d-f79b117d5949
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.minors_program
+id: node.minors_program.title
+field_name: title
+entity_type: node
+bundle: minors_program
+label: 'Program Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

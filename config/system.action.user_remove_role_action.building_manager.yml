@@ -1,0 +1,14 @@
+uuid: 5b398d4a-ae8e-4318-9c05-44594e8b5b13
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.building_manager
+  module:
+    - user
+id: user_remove_role_action.building_manager
+label: 'Remove the Building Manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: building_manager

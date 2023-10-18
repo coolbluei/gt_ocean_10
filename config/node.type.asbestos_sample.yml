@@ -1,0 +1,18 @@
+uuid: b0a835c7-bb8b-49a8-ac2d-d2dfc733acf8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+    parent: 'main-menu:0:'
+name: 'Asbestos Sample'
+type: asbestos_sample
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

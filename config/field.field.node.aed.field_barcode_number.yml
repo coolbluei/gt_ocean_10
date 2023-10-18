@@ -1,0 +1,19 @@
+uuid: 49ff67ea-3caf-4ec4-9944-e23a6119efcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_barcode_number
+    - node.type.aed
+id: node.aed.field_barcode_number
+field_name: field_barcode_number
+entity_type: node
+bundle: aed
+label: 'Barcode Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,28 @@
+uuid: fba44336-79f6-432d-8b9f-f68477dcd281
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_user
+    - node.type.aed_inspector
+id: node.aed_inspector.field_user
+field_name: field_user
+entity_type: node
+bundle: aed_inspector
+label: User
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    behaviors:
+      views-select-list:
+        status: 0
+field_type: entity_reference

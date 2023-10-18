@@ -1,0 +1,18 @@
+uuid: 10f9c527-1ac0-45e5-b584-8c07716db39b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.building
+id: node.building.title
+field_name: title
+entity_type: node
+bundle: building
+label: 'Building Code'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

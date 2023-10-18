@@ -1,0 +1,189 @@
+uuid: bf0955dc-2500-44a7-b00b-4f4123ce412e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.minors_program.body
+    - field.field.node.minors_program.field_approved_application
+    - field.field.node.minors_program.field_minors_submitted_docs
+    - field.field.node.minors_program.field_program_coordinator
+    - field.field.node.minors_program.field_program_coordinator_email
+    - field.field.node.minors_program.field_review_status
+    - field.field.node.minors_program.field_start_end_dates
+    - field.field.node.minors_program.field_user
+    - node.type.minors_program
+  module:
+    - datetime
+    - field_group
+    - file
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_ehs_use_only:
+      children:
+        - body
+        - field_review_status
+        - field_approved_application
+      label: 'For EHS Use Only'
+      region: content
+      parent_name: ''
+      weight: 8
+      format_type: fieldset
+      format_settings:
+        classes: 'group-ehs-use-only field-group-fieldset'
+        id: ''
+        description: ''
+        required_fields: true
+        formatter: collapsible
+    group_program_coordinator:
+      children:
+        - field_program_coordinator
+        - field_program_coordinator_email
+        - field_user
+      label: 'Program Coordinator'
+      region: content
+      parent_name: ''
+      weight: 7
+      format_type: fieldset
+      format_settings:
+        classes: 'group-program-coordinator field-group-fieldset'
+        id: ''
+        description: ''
+        required_fields: true
+        formatter: collapsible
+    group_minors_program:
+      children:
+        - field_start_end_dates
+        - field_minors_submitted_docs
+        - title
+      label: 'Program Information'
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: fieldset
+      format_settings:
+        classes: 'group-minors-program field-group-fieldset'
+        id: ''
+        description: ''
+        required_fields: true
+        formatter: collapsible
+id: node.minors_program.default
+targetEntityType: node
+bundle: minors_program
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 121
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_approved_application:
+    type: file_generic
+    weight: 10
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_minors_submitted_docs:
+    type: file_generic
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  field_program_coordinator:
+    type: string_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_program_coordinator_email:
+    type: email_default
+    weight: 6
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  field_review_status:
+    type: options_select
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_start_end_dates:
+    type: datetime_default
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_user:
+    type: entity_reference_autocomplete
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

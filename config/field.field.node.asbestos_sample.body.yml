@@ -1,0 +1,23 @@
+uuid: 788593dc-e5f3-4a91-933d-595f5eed432f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.asbestos_sample
+  module:
+    - text
+id: node.asbestos_sample.body
+field_name: body
+entity_type: node
+bundle: asbestos_sample
+label: 'Additional Information'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

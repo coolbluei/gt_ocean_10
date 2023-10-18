@@ -1,0 +1,19 @@
+uuid: 53d8e194-1be2-4f74-bbdf-65ade78553de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email_address1
+    - node.type.aed_inspector
+id: node.aed_inspector.field_email_address1
+field_name: field_email_address1
+entity_type: node
+bundle: aed_inspector
+label: 'Email address'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

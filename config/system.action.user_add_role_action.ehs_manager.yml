@@ -1,0 +1,14 @@
+uuid: c57728e3-8820-4f36-aa72-04429d93e89f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ehs_manager
+  module:
+    - user
+id: user_add_role_action.ehs_manager
+label: 'Add the EHS Manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ehs_manager

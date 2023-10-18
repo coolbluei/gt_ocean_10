@@ -1,0 +1,19 @@
+uuid: c962209a-8bc9-4582-8da8-cabe3b7679a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_model_number
+    - node.type.aed
+id: node.aed.field_model_number
+field_name: field_model_number
+entity_type: node
+bundle: aed
+label: 'Model Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

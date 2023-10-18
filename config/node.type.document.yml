@@ -1,0 +1,18 @@
+uuid: 26420f89-d8b3-4e45-aa3b-89fee1ec59bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+    parent: 'main-menu:0:'
+name: Document
+type: document
+description: 'Forms, procedures, or other documents'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

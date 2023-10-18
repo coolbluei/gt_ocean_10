@@ -1,0 +1,19 @@
+uuid: 498f7d28-5731-4f19-a0af-74605c080127
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_gtct_cs_summary_sentence
+field_name: field_gtct_cs_summary_sentence
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

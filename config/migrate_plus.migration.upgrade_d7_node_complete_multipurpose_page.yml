@@ -1,0 +1,124 @@
+uuid: 2d1a6cdc-b4cf-4b86-8dc9-802ad99a16fa
+langcode: en
+status: true
+dependencies: {  }
+id: upgrade_d7_node_complete_multipurpose_page
+class: Drupal\node\Plugin\migrate\D7NodeTranslation
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 7'
+  - Content
+migration_group: migrate_drupal_7
+label: 'Node complete (Multipurpose page)'
+source:
+  plugin: d7_node_complete
+  node_type: multipurpose_page
+process:
+  nid:
+    -
+      plugin: get
+      source: tnid
+  vid:
+    -
+      plugin: get
+      source: vid
+  langcode:
+    -
+      plugin: default_value
+      source: language
+      default_value: und
+  title:
+    -
+      plugin: get
+      source: title
+  uid:
+    -
+      plugin: get
+      source: node_uid
+  status:
+    -
+      plugin: get
+      source: status
+  created:
+    -
+      plugin: get
+      source: created
+  changed:
+    -
+      plugin: get
+      source: timestamp
+  promote:
+    -
+      plugin: get
+      source: promote
+  sticky:
+    -
+      plugin: get
+      source: sticky
+  revision_uid:
+    -
+      plugin: get
+      source: revision_uid
+  revision_log:
+    -
+      plugin: get
+      source: log
+  revision_timestamp:
+    -
+      plugin: get
+      source: timestamp
+  content_translation_source:
+    -
+      plugin: get
+      source: source_langcode
+  comment_node_multipurpose_page/0/status:
+    -
+      plugin: get
+      source: comment
+  field_articles_1:
+    -
+      plugin: get
+      source: field_articles_1
+  field_articles_2:
+    -
+      plugin: get
+      source: field_articles_2
+  field_articles_3:
+    -
+      plugin: get
+      source: field_articles_3
+  field_aside_1:
+    -
+      plugin: get
+      source: field_aside_1
+  field_aside_2:
+    -
+      plugin: get
+      source: field_aside_2
+  field_aside_3:
+    -
+      plugin: get
+      source: field_aside_3
+  field_body_1:
+    -
+      plugin: get
+      source: field_body_1
+  field_body_2:
+    -
+      plugin: get
+      source: field_body_2
+  field_body_3:
+    -
+      plugin: get
+      source: field_body_3
+destination:
+  plugin: 'entity_complete:node'
+  translations: true
+  default_bundle: multipurpose_page
+migration_dependencies:
+  required:
+    - upgrade_d7_user
+    - upgrade_d7_node_type
+  optional:
+    - upgrade_d7_field_instance

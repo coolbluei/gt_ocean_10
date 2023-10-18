@@ -1,0 +1,138 @@
+uuid: aff54d82-6d12-46c6-8bc3-5a12d2594f18
+langcode: en
+status: true
+dependencies: {  }
+id: upgrade_d7_node_complete_person
+class: Drupal\node\Plugin\migrate\D7NodeTranslation
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 7'
+  - Content
+migration_group: migrate_drupal_7
+label: 'Node complete (Person)'
+source:
+  plugin: d7_node_complete
+  node_type: person
+process:
+  nid:
+    -
+      plugin: get
+      source: tnid
+  vid:
+    -
+      plugin: get
+      source: vid
+  langcode:
+    -
+      plugin: default_value
+      source: language
+      default_value: und
+  title:
+    -
+      plugin: get
+      source: title
+  uid:
+    -
+      plugin: get
+      source: node_uid
+  status:
+    -
+      plugin: get
+      source: status
+  created:
+    -
+      plugin: get
+      source: created
+  changed:
+    -
+      plugin: get
+      source: timestamp
+  promote:
+    -
+      plugin: get
+      source: promote
+  sticky:
+    -
+      plugin: get
+      source: sticky
+  revision_uid:
+    -
+      plugin: get
+      source: revision_uid
+  revision_log:
+    -
+      plugin: get
+      source: log
+  revision_timestamp:
+    -
+      plugin: get
+      source: timestamp
+  content_translation_source:
+    -
+      plugin: get
+      source: source_langcode
+  comment_node_person/0/status:
+    -
+      plugin: get
+      source: comment
+  field_photo_person:
+    -
+      plugin: sub_process
+      source: field_photo_person
+      process:
+        target_id: fid
+        alt: alt
+        title: title
+        width: width
+        height: height
+  field_name:
+    -
+      plugin: get
+      source: field_name
+  field_job_title:
+    -
+      plugin: get
+      source: field_job_title
+  field_email_address1:
+    -
+      plugin: sub_process
+      source: field_email_address1
+      process:
+        value: email
+  field_office_phone_number:
+    -
+      plugin: get
+      source: field_office_phone_number
+  field_cell_phone_number1:
+    -
+      plugin: get
+      source: field_cell_phone_number1
+  field_ehs_office2:
+    -
+      plugin: sub_process
+      source: field_ehs_office2
+      process:
+        target_id: tid
+  field_office_location_link:
+    -
+      plugin: field_link
+      source: field_office_location_link
+  field_gt_account:
+    -
+      plugin: get
+      source: field_gt_account
+  field_directory_order:
+    -
+      plugin: get
+      source: field_directory_order
+destination:
+  plugin: 'entity_complete:node'
+  translations: true
+  default_bundle: person
+migration_dependencies:
+  required:
+    - upgrade_d7_user
+    - upgrade_d7_node_type
+  optional:
+    - upgrade_d7_field_instance

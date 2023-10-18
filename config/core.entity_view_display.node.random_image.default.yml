@@ -1,0 +1,42 @@
+uuid: 64e843d5-6c4f-43a4-8f37-1b987f9c51f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.random_image.field_image
+    - field.field.node.random_image.field_random_image_set_s_
+    - node.type.random_image
+  module:
+    - image
+    - user
+id: node.random_image.default
+targetEntityType: node
+bundle: random_image
+mode: default
+content:
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_random_image_set_s_:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,14 @@
+uuid: e3c8c5c0-d42d-4d45-b5c9-b57c5cd3c7bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ehs_staff
+  module:
+    - user
+id: user_add_role_action.ehs_staff
+label: 'Add the EHS Staff role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ehs_staff

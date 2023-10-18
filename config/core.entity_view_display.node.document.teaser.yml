@@ -1,0 +1,38 @@
+uuid: 7ba51658-2b18-450b-85e3-ffdf5180d31e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.document.body
+    - field.field.node.document.field_document_name_for_sorting
+    - field.field.node.document.field_document_type
+    - field.field.node.document.field_ehs_office2
+    - field.field.node.document.field_file
+    - node.type.document
+  module:
+    - text
+    - user
+id: node.document.teaser
+targetEntityType: node
+bundle: document
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_document_name_for_sorting: true
+  field_document_type: true
+  field_ehs_office2: true
+  field_file: true

@@ -1,0 +1,26 @@
+uuid: 9d12559a-8f1e-4e9b-9048-6fd065d7144f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_random_image_set_s_
+    - node.type.random_image
+    - taxonomy.vocabulary.random_image_set
+id: node.random_image.field_random_image_set_s_
+field_name: field_random_image_set_s_
+entity_type: node
+bundle: random_image
+label: 'Random Image Set(s)'
+description: "Select any Random Image sets where this image should appear. Don't select anything if you aren't sure yet or don't want it \"published\" anymore."
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      random_image_set: random_image_set
+    sort:
+      field: _none
+field_type: entity_reference

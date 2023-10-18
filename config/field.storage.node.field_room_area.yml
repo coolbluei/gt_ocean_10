@@ -1,0 +1,21 @@
+uuid: 8c1ee301-66b6-4fcc-a3c1-0fa2ce2bf22d
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_room_area
+field_name: field_room_area
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

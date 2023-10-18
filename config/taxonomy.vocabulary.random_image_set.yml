@@ -1,0 +1,8 @@
+uuid: 5f3bfe5b-ae0b-41c2-b1f1-e55ea0ccdd8a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Random Image Set'
+vid: random_image_set
+description: 'Groupings of images for a random image/pseudo-carousel effect'
+weight: 0

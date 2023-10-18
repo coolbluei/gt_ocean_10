@@ -1,0 +1,16 @@
+uuid: cc79045b-eee1-4d10-a228-f6c10d839ad7
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: 'Super Block'
+type: super_block
+description: 'Dynamic callout/highlight elements that are pulled into pages via block reference fields.'
+help: 'Enter a Description that will be easy to find in a long list of blocks. For example, Block - Homepage - Contact Info'
+new_revision: true
+preview_mode: 1
+display_submitted: false

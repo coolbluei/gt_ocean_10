@@ -1,0 +1,105 @@
+uuid: 31f6356c-6527-4687-9a29-756b2bf3baa5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.person.field_cell_phone_number1
+    - field.field.node.person.field_directory_order
+    - field.field.node.person.field_ehs_office2
+    - field.field.node.person.field_email_address1
+    - field.field.node.person.field_gt_account
+    - field.field.node.person.field_job_title
+    - field.field.node.person.field_name
+    - field.field.node.person.field_office_location_link
+    - field.field.node.person.field_office_phone_number
+    - field.field.node.person.field_photo_person
+    - image.style.thumbnail
+    - node.type.person
+  module:
+    - image
+    - link
+    - options
+    - telephone
+    - user
+id: node.person.default
+targetEntityType: node
+bundle: person
+mode: default
+content:
+  field_cell_phone_number1:
+    type: telephone_link
+    label: inline
+    settings:
+      title: ''
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_directory_order:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_email_address1:
+    type: email_mailto
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_job_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_office_location_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_office_phone_number:
+    type: telephone_link
+    label: inline
+    settings:
+      title: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_photo_person:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ehs_office2: true
+  field_gt_account: true

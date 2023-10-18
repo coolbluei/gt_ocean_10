@@ -1,0 +1,21 @@
+uuid: 9f88a036-b745-475b-b2ee-4eca7d659a86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_boilerplate
+    - node.type.event
+  module:
+    - text
+id: node.event.field_event_boilerplate
+field_name: field_event_boilerplate
+entity_type: node
+bundle: event
+label: Boilerplate
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

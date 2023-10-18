@@ -1,0 +1,44 @@
+uuid: bee6b970-9e11-4ef0-b766-ffd15067647f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.document.body
+    - field.field.node.document.field_document_name_for_sorting
+    - field.field.node.document.field_document_type
+    - field.field.node.document.field_ehs_office2
+    - field.field.node.document.field_file
+    - node.type.document
+  module:
+    - file
+    - text
+    - user
+id: node.document.default
+targetEntityType: node
+bundle: document
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_file:
+    type: file_default
+    label: hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_document_name_for_sorting: true
+  field_document_type: true
+  field_ehs_office2: true

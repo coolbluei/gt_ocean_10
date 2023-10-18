@@ -1,0 +1,46 @@
+uuid: dd4e679c-4473-4c08-9017-79579a427597
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.building_dormgreek.field_building_number
+    - field.field.node.building_dormgreek.field_building_type
+    - field.field.node.building_dormgreek.field_current_building
+    - node.type.building_dormgreek
+  module:
+    - options
+    - user
+id: node.building_dormgreek.default
+targetEntityType: node
+bundle: building_dormgreek
+mode: default
+content:
+  field_building_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_building_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_current_building:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

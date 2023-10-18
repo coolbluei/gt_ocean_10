@@ -1,0 +1,25 @@
+uuid: 1ac53f25-2c08-45e5-8e1d-99a2656f442c
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.minimal_html
+    - node.type.minors_program
+  module:
+    - filter
+    - node
+    - search
+    - system
+_core:
+  default_config_hash: eyJWjhYZZoMIRKl4QFG_o2tUt0PHthhcKyuI6hlmN3A
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'create minors_program content'
+  - 'edit own minors_program content'
+  - 'search content'
+  - 'use text format minimal_html'
+  - 'view own unpublished content'

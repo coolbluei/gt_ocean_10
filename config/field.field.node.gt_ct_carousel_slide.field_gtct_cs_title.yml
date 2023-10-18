@@ -1,0 +1,19 @@
+uuid: f60d29dc-397f-4d95-b2ed-65ae199a705a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gtct_cs_title
+    - node.type.gt_ct_carousel_slide
+id: node.gt_ct_carousel_slide.field_gtct_cs_title
+field_name: field_gtct_cs_title
+entity_type: node
+bundle: gt_ct_carousel_slide
+label: 'Slide Title'
+description: 'Provide a title for the slide. Depending on title treatment settings this will appear as the main title, or just be used for SEO/accessibility purposes.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

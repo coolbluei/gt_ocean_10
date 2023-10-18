@@ -1,0 +1,21 @@
+uuid: 414d1c47-9c99-4788-8bfe-d8abf37e8c1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone_number
+    - node.type.aed_inspector
+  module:
+    - telephone
+id: node.aed_inspector.field_phone_number
+field_name: field_phone_number
+entity_type: node
+bundle: aed_inspector
+label: 'Phone Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

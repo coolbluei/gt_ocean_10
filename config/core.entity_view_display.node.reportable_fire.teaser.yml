@@ -1,0 +1,42 @@
+uuid: 7f22c45d-f5f0-4bf1-92ff-2d7feb2ed1db
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.reportable_fire.body
+    - field.field.node.reportable_fire.field_building
+    - field.field.node.reportable_fire.field_cause_of_fire
+    - field.field.node.reportable_fire.field_date_time
+    - field.field.node.reportable_fire.field_deaths
+    - field.field.node.reportable_fire.field_injuries
+    - field.field.node.reportable_fire.field_property_damage
+    - node.type.reportable_fire
+  module:
+    - text
+    - user
+id: node.reportable_fire.teaser
+targetEntityType: node
+bundle: reportable_fire
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_building: true
+  field_cause_of_fire: true
+  field_date_time: true
+  field_deaths: true
+  field_injuries: true
+  field_property_damage: true

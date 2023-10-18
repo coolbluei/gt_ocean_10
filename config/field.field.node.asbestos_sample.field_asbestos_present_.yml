@@ -1,0 +1,23 @@
+uuid: d3711312-13f4-48d3-9492-b82ca8131a84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_asbestos_present_
+    - node.type.asbestos_sample
+id: node.asbestos_sample.field_asbestos_present_
+field_name: field_asbestos_present_
+entity_type: node
+bundle: asbestos_sample
+label: 'Asbestos present?'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'yes'
+  off_label: 'no'
+field_type: boolean

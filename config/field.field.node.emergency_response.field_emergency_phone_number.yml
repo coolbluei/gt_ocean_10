@@ -1,0 +1,23 @@
+uuid: bc6c1b14-4d33-4e28-b6eb-abe246c26eaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_emergency_phone_number
+    - node.type.emergency_response
+  module:
+    - telephone
+id: node.emergency_response.field_emergency_phone_number
+field_name: field_emergency_phone_number
+entity_type: node
+bundle: emergency_response
+label: 'Emergency phone number'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 404-216-5237
+default_value_callback: ''
+settings: {  }
+field_type: telephone

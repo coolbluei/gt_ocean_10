@@ -1,0 +1,21 @@
+uuid: bcb0662f-f946-4b2a-a704-172c71d5d089
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_childrens_pads_expiration
+    - node.type.aed
+  module:
+    - datetime
+id: node.aed.field_childrens_pads_expiration
+field_name: field_childrens_pads_expiration
+entity_type: node
+bundle: aed
+label: 'Childrens Pads Expiration Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

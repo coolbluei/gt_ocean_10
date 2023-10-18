@@ -1,0 +1,21 @@
+uuid: d284964b-ffb8-4a09-9034-ba273fe3f216
+langcode: en
+status: true
+dependencies:
+  module:
+    - book
+  theme:
+    - gt
+id: gt_book_navigation
+theme: gt
+region: content
+weight: -41
+provider: null
+plugin: book_navigation
+settings:
+  id: book_navigation
+  label: ''
+  label_display: '0'
+  provider: book
+  block_mode: 'book pages'
+visibility: {  }

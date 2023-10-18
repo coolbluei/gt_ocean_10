@@ -1,0 +1,28 @@
+uuid: 1e60234c-d553-47d2-a281-549d2c122419
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.vertical_landing_page.field_body_1
+    - node.type.vertical_landing_page
+  module:
+    - text
+    - user
+id: node.vertical_landing_page.default
+targetEntityType: node
+bundle: vertical_landing_page
+mode: default
+content:
+  field_body_1:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

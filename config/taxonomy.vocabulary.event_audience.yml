@@ -1,0 +1,8 @@
+uuid: 15648a7d-6569-457d-b17e-a309bb597bb3
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event Audience'
+vid: event_audience
+description: ''
+weight: 0

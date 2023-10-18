@@ -1,0 +1,19 @@
+uuid: c95d2f3f-b6c5-4f35-8a83-601ee4cc6abd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.aed_inspector
+id: node.aed_inspector.field_name
+field_name: field_name
+entity_type: node
+bundle: aed_inspector
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

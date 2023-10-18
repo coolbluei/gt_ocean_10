@@ -1,0 +1,21 @@
+uuid: 4dad0b31-ff60-497f-9881-9620c155a896
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_start_end_dates
+    - node.type.minors_program
+  module:
+    - datetime_range
+id: node.minors_program.field_start_end_dates
+field_name: field_start_end_dates
+entity_type: node
+bundle: minors_program
+label: 'Start & End Dates'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

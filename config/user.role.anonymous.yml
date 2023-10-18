@@ -1,0 +1,30 @@
+uuid: 69b94f45-f771-4ffc-8d87-fb67cf7afc92
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.minimal_html
+    - filter.format.text_editor_advanced
+    - filter.format.text_editor_basic
+    - filter.format.unfiltered_html
+  module:
+    - filter
+    - search
+    - system
+_core:
+  default_config_hash: Y293BbVeaJOUT9hKaiI9gGSueqhICyopKxfk184gt4U
+id: anonymous
+label: 'anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'search content'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format minimal_html'
+  - 'use text format text_editor_advanced'
+  - 'use text format text_editor_basic'
+  - 'use text format unfiltered_html'

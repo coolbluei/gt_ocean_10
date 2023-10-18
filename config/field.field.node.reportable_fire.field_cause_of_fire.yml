@@ -1,0 +1,19 @@
+uuid: e87ffdde-a538-40eb-b5d6-c0e2475c038f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cause_of_fire
+    - node.type.reportable_fire
+id: node.reportable_fire.field_cause_of_fire
+field_name: field_cause_of_fire
+entity_type: node
+bundle: reportable_fire
+label: 'Cause of Fire'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

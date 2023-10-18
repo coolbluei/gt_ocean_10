@@ -1,0 +1,19 @@
+uuid: eb84e3b9-58a4-4729-a4c2-0ce7266c813c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_emergency_type
+    - node.type.emergency_response
+id: node.emergency_response.field_emergency_type
+field_name: field_emergency_type
+entity_type: node
+bundle: emergency_response
+label: 'Emergency type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

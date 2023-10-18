@@ -1,0 +1,28 @@
+uuid: fad5f7c5-a61d-4caf-947c-555916da99d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_user
+    - node.type.aed
+id: node.aed.field_user
+field_name: field_user
+entity_type: node
+bundle: aed
+label: Inspector
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    behaviors:
+      views-select-list:
+        status: 0
+field_type: entity_reference

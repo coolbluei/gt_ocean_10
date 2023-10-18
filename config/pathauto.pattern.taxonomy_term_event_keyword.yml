@@ -1,0 +1,21 @@
+uuid: 2ff01989-104c-447e-8c1a-25ea0b3b764b
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term_event_keyword
+label: 'Taxonomy term - Event Keyword'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'tags/event/keyword/[term:name]'
+selection_criteria:
+  -
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      event_keyword: event_keyword
+selection_logic: and
+weight: 0
+relationships: {  }

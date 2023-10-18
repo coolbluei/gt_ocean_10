@@ -1,0 +1,16 @@
+uuid: f88e7b2b-6727-44d8-9548-f32500acf801
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: 'Feed URL (GT Calendar)'
+type: gt_calendar_feed
+description: 'A feed URL from Mercury that only contains Events.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

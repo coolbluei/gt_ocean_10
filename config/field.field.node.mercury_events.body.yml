@@ -1,0 +1,23 @@
+uuid: 902f0abc-02e2-4a67-a448-2b7f6775bf09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.mercury_events
+  module:
+    - text
+id: node.mercury_events.body
+field_name: body
+entity_type: node
+bundle: mercury_events
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,92 @@
+uuid: fee65e6d-6232-412a-af12-cf7c97ce8617
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.asbestos_sample.body
+    - field.field.node.asbestos_sample.field_acm_abated_
+    - field.field.node.asbestos_sample.field_asbestos_present_
+    - field.field.node.asbestos_sample.field_building_all
+    - field.field.node.asbestos_sample.field_date_sampled
+    - field.field.node.asbestos_sample.field_floor
+    - field.field.node.asbestos_sample.field_material_sampled
+    - field.field.node.asbestos_sample.field_room_area
+    - node.type.asbestos_sample
+  module:
+    - datetime
+    - options
+    - text
+    - user
+id: node.asbestos_sample.default
+targetEntityType: node
+bundle: asbestos_sample
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_acm_abated_:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_asbestos_present_:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_building_all:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_date_sampled:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: long
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_floor:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_material_sampled:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_room_area:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

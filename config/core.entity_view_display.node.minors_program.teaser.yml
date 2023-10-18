@@ -1,0 +1,44 @@
+uuid: 59d375a1-ed7e-487b-9236-1ecd5037e762
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.minors_program.body
+    - field.field.node.minors_program.field_approved_application
+    - field.field.node.minors_program.field_minors_submitted_docs
+    - field.field.node.minors_program.field_program_coordinator
+    - field.field.node.minors_program.field_program_coordinator_email
+    - field.field.node.minors_program.field_review_status
+    - field.field.node.minors_program.field_start_end_dates
+    - field.field.node.minors_program.field_user
+    - node.type.minors_program
+  module:
+    - text
+    - user
+id: node.minors_program.teaser
+targetEntityType: node
+bundle: minors_program
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_approved_application: true
+  field_minors_submitted_docs: true
+  field_program_coordinator: true
+  field_program_coordinator_email: true
+  field_review_status: true
+  field_start_end_dates: true
+  field_user: true

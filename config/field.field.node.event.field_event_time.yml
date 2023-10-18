@@ -1,0 +1,21 @@
+uuid: 08c0a9e4-72bd-411b-ae49-429c475e3e9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_time
+    - node.type.event
+  module:
+    - datetime_range
+id: node.event.field_event_time
+field_name: field_event_time
+entity_type: node
+bundle: event
+label: Time
+description: "<ul>\r\n<li>Do NOT enter data HERE...all your Event data should come from Mercury, with these best practices:</li>\r\n<li>Enter the From and To date(s)/time(s) for your event. Be sure to follow best practices when entering dates for events that take place over a series of days.</li>\r\n<li>For a multi-day event, enter the day after your event ends in the \"Until\" field.</li>\r\n<li>Learn more about the proper way to enter dates/times on the <a href=\"#\">Creating Events how-to page</a>.</li>\r\n</ul>"
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

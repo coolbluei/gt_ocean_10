@@ -1,0 +1,23 @@
+uuid: de92b533-ec43-4ad7-8b1e-4dcdea612088
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.minors_program
+  module:
+    - text
+id: node.minors_program.body
+field_name: body
+entity_type: node
+bundle: minors_program
+label: Notes
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

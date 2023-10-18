@@ -1,0 +1,23 @@
+uuid: 57aab67e-65c8-4d39-8e47-3ffe76ef0c3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_1
+    - node.type.multipurpose_page
+  module:
+    - text
+id: node.multipurpose_page.field_body_1
+field_name: field_body_1
+entity_type: node
+bundle: multipurpose_page
+label: 'Body 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

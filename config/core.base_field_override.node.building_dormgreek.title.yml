@@ -1,0 +1,18 @@
+uuid: 139ca14d-8b4e-4854-ba11-e9fdc05a90cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.building_dormgreek
+id: node.building_dormgreek.title
+field_name: title
+entity_type: node
+bundle: building_dormgreek
+label: 'Building Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

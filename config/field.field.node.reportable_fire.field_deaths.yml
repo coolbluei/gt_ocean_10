@@ -1,0 +1,25 @@
+uuid: 7b69a694-e491-4e2c-82b8-0d37f805536e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_deaths
+    - node.type.reportable_fire
+id: node.reportable_fire.field_deaths
+field_name: field_deaths
+entity_type: node
+bundle: reportable_fire
+label: Deaths
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

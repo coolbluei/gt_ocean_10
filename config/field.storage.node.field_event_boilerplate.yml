@@ -1,0 +1,19 @@
+uuid: 4c8aaf89-02bf-4108-89fe-417a2bc7b67e
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_event_boilerplate
+field_name: field_event_boilerplate
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

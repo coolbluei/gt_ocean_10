@@ -1,0 +1,93 @@
+node_search:
+  path: node
+  search: true
+  advanced:
+    visibility: true
+    collapsible: true
+    collapsed: true
+    criteria:
+      or: or
+      phrase: phrase
+      negative: negative
+    types:
+      article: article
+      hg_boilerplate: hg_boilerplate
+      hg_event: hg_event
+      hg_external_news: hg_external_news
+      hg_image: hg_image
+      hg_news: hg_news
+      hg_profile: hg_profile
+      hg_video: hg_video
+      page: page
+      webform: webform
+      book: book
+      aed: aed
+      aed_inspector: aed_inspector
+      asbestos_sample: asbestos_sample
+      building: building
+      building_all: building_all
+      building_dormgreek: building_dormgreek
+      document: document
+      document_linked: document_linked
+      emergency_response: emergency_response
+      event: event
+      gt_calendar_feed: gt_calendar_feed
+      gt_ct_carousel: gt_ct_carousel
+      gt_ct_carousel_slide: gt_ct_carousel_slide
+      horizontal_landing_page: horizontal_landing_page
+      mercury_events: mercury_events
+      minors_program: minors_program
+      multipurpose_page: multipurpose_page
+      node_gallery_gallery: node_gallery_gallery
+      node_gallery_item: node_gallery_item
+      panel: panel
+      person: person
+      question: question
+      random_image: random_image
+      reportable_fire: reportable_fire
+      super_block: super_block
+      vertical_landing_page: vertical_landing_page
+    languages:
+      en: en
+      und: und
+      zxx: zxx
+  info:
+    type: type
+    user: user
+    date: date
+    comment: comment
+  filter:
+    position: disabled
+    label: 'Filter the results'
+    any: '- Any -'
+user_search:
+  advanced:
+    types:
+      webform: webform
+      book: book
+      aed: aed
+      aed_inspector: aed_inspector
+      asbestos_sample: asbestos_sample
+      building: building
+      building_all: building_all
+      building_dormgreek: building_dormgreek
+      document: document
+      document_linked: document_linked
+      emergency_response: emergency_response
+      event: event
+      gt_calendar_feed: gt_calendar_feed
+      gt_ct_carousel: gt_ct_carousel
+      gt_ct_carousel_slide: gt_ct_carousel_slide
+      horizontal_landing_page: horizontal_landing_page
+      mercury_events: mercury_events
+      minors_program: minors_program
+      multipurpose_page: multipurpose_page
+      node_gallery_gallery: node_gallery_gallery
+      node_gallery_item: node_gallery_item
+      panel: panel
+      person: person
+      question: question
+      random_image: random_image
+      reportable_fire: reportable_fire
+      super_block: super_block
+      vertical_landing_page: vertical_landing_page

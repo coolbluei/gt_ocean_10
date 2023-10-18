@@ -1,0 +1,23 @@
+uuid: 4985f5d9-1738-4838-a1b1-8e3cef359ce9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_office_location_link
+    - node.type.person
+  module:
+    - link
+id: node.person.field_office_location_link
+field_name: field_office_location_link
+entity_type: node
+bundle: person
+label: 'Office Location'
+description: 'Link to the directions page for the appropriate building'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

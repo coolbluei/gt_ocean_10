@@ -1,0 +1,26 @@
+uuid: f51eb423-52ea-44f9-832f-56f3f656c45e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ehs_office2
+    - node.type.document
+    - taxonomy.vocabulary.ehs_offices
+id: node.document.field_ehs_office2
+field_name: field_ehs_office2
+entity_type: node
+bundle: document
+label: 'EHS Office'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ehs_offices: ehs_offices
+    sort:
+      field: _none
+field_type: entity_reference

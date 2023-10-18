@@ -1,0 +1,32 @@
+uuid: 16febc0d-2c96-4d5b-8807-08182ccd34ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_building
+    - node.type.reportable_fire
+id: node.reportable_fire.field_building
+field_name: field_building
+entity_type: node
+bundle: reportable_fire
+label: Building
+description: 'Start typing part of the building name, and click on the correct one that pops up.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    view:
+      view_name: building_list_current
+      display_name: entityreference_1
+      args: {  }
+    behaviors:
+      views-select-list:
+        status: 0
+field_type: entity_reference

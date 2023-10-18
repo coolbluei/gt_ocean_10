@@ -1,0 +1,18 @@
+uuid: a53670d4-e5c8-4bfb-bb8e-52ed5cbe6ea2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.aed
+id: node.aed.title
+field_name: title
+entity_type: node
+bundle: aed
+label: 'AED - barcode number'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

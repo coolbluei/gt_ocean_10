@@ -1,0 +1,93 @@
+uuid: 7c72f974-1bd0-4afe-b342-44f71ae2544c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.minors_program.body
+    - field.field.node.minors_program.field_approved_application
+    - field.field.node.minors_program.field_minors_submitted_docs
+    - field.field.node.minors_program.field_program_coordinator
+    - field.field.node.minors_program.field_program_coordinator_email
+    - field.field.node.minors_program.field_review_status
+    - field.field.node.minors_program.field_start_end_dates
+    - field.field.node.minors_program.field_user
+    - node.type.minors_program
+  module:
+    - datetime
+    - file
+    - options
+    - text
+    - user
+id: node.minors_program.default
+targetEntityType: node
+bundle: minors_program
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_approved_application:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_minors_submitted_docs:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_program_coordinator:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_program_coordinator_email:
+    type: email_mailto
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_review_status:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_start_end_dates:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: long
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_user:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

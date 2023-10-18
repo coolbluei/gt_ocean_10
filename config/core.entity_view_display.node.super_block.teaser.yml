@@ -1,0 +1,34 @@
+uuid: c1b33b84-34db-4807-9c34-fa34bf9491ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.super_block.field_nbsb_image_placement
+    - field.field.node.super_block.field_nbsb_jump_link
+    - field.field.node.super_block.field_nbsb_jump_link_location
+    - field.field.node.super_block.field_nbsb_primary_image
+    - field.field.node.super_block.field_nbsb_skin
+    - field.field.node.super_block.field_nbsb_teaser_text
+    - field.field.node.super_block.field_nbsb_title
+    - node.type.super_block
+  module:
+    - user
+id: node.super_block.teaser
+targetEntityType: node
+bundle: super_block
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_nbsb_image_placement: true
+  field_nbsb_jump_link: true
+  field_nbsb_jump_link_location: true
+  field_nbsb_primary_image: true
+  field_nbsb_skin: true
+  field_nbsb_teaser_text: true
+  field_nbsb_title: true

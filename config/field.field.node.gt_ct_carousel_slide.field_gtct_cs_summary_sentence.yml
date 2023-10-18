@@ -1,0 +1,19 @@
+uuid: 1ba4423a-15d6-4de6-804d-bfae228b820f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gtct_cs_summary_sentence
+    - node.type.gt_ct_carousel_slide
+id: node.gt_ct_carousel_slide.field_gtct_cs_summary_sentence
+field_name: field_gtct_cs_summary_sentence
+entity_type: node
+bundle: gt_ct_carousel_slide
+label: 'Summary Sentence'
+description: 'If required, provide a summary sentence. This will display below the title if a title graphic is not used. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

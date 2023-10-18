@@ -1,0 +1,21 @@
+uuid: 61808a58-f574-4e8f-b187-879ecf78b0e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term_event_category
+label: 'Taxonomy term - Event Category'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'tags/event/category/[term:name]'
+selection_criteria:
+  -
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      event_category: event_category
+selection_logic: and
+weight: 0
+relationships: {  }

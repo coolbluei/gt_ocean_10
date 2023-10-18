@@ -1,0 +1,27 @@
+uuid: e6b00197-8180-4db4-be17-a433a7e8405d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file
+    - node.type.document
+  module:
+    - file
+id: node.document.field_file
+field_name: field_file
+entity_type: node
+bundle: document
+label: File
+description: 'Upload the file'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: ''
+  file_extensions: 'txt doc docx pdf xls xlsx ppt pptx png'
+  max_filesize: '50 MB'
+  description_field: true
+field_type: file

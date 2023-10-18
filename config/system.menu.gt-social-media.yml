@@ -1,0 +1,8 @@
+uuid: 213a94d1-f6d8-42b4-a898-601a592fb14b
+langcode: en
+status: true
+dependencies: {  }
+id: gt-social-media
+label: 'GT social media links'
+description: "Links to your site's social media properties."
+locked: false

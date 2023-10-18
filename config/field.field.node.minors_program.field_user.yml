@@ -1,0 +1,28 @@
+uuid: 19296010-f8cf-48ec-947b-1eb46edcff9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_user
+    - node.type.minors_program
+id: node.minors_program.field_user
+field_name: field_user
+entity_type: node
+bundle: minors_program
+label: 'Georgia Tech Account'
+description: 'The GT/Techworks account for the program coordinator'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    behaviors:
+      views-select-list:
+        status: 0
+field_type: entity_reference

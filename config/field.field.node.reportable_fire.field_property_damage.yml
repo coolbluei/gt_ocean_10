@@ -1,0 +1,25 @@
+uuid: e384d352-5f51-49f4-8fd5-3216b504dd37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_property_damage
+    - node.type.reportable_fire
+id: node.reportable_fire.field_property_damage
+field_name: field_property_damage
+entity_type: node
+bundle: reportable_fire
+label: 'Property Damage'
+description: 'Dollars of property damage due to fire'
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: $
+  suffix: ''
+field_type: integer

@@ -1,0 +1,8 @@
+uuid: d6b59d78-c91c-4426-95a1-a60dd8158a73
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event Group'
+vid: event_group
+description: ''
+weight: 0

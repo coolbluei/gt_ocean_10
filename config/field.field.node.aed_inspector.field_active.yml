@@ -1,0 +1,23 @@
+uuid: 15e3ffa3-8ad0-46e0-901c-3acee4ae6c8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_active
+    - node.type.aed_inspector
+id: node.aed_inspector.field_active
+field_name: field_active
+entity_type: node
+bundle: aed_inspector
+label: 'Active?'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

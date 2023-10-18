@@ -1,0 +1,21 @@
+uuid: 5fa9ea6c-e6a1-4dcb-8702-bc404a8cfb64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_sidebar
+    - node.type.event
+  module:
+    - text
+id: node.event.field_event_sidebar
+field_name: field_event_sidebar
+entity_type: node
+bundle: event
+label: Sidebar
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

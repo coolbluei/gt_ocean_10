@@ -1,0 +1,36 @@
+uuid: 507e13a6-dc05-4e9d-b2fe-21dd877c764f
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_gtct_cs_bg_color
+field_name: field_gtct_cs_bg_color
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: white
+      label: White
+    -
+      value: gt-action-gray
+      label: 'Light Gray'
+    -
+      value: gt-search-gray
+      label: 'Medium Gray'
+    -
+      value: gt-gold
+      label: 'GT Gold'
+    -
+      value: gt-navy
+      label: 'GT Blue'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

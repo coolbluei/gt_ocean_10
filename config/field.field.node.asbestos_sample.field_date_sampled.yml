@@ -1,0 +1,21 @@
+uuid: aef2085d-18b7-4f19-98dd-71b9f8a341e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_sampled
+    - node.type.asbestos_sample
+  module:
+    - datetime
+id: node.asbestos_sample.field_date_sampled
+field_name: field_date_sampled
+entity_type: node
+bundle: asbestos_sample
+label: 'Date Sampled'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

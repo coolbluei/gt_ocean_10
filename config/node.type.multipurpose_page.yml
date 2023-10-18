@@ -1,0 +1,18 @@
+uuid: cf09e91c-20b3-406c-8fe7-cd5784b63b03
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+    parent: 'main-menu:0:'
+name: 'Multipurpose page'
+type: multipurpose_page
+description: 'Multipurpose pages provide three separate fields for body copy, plus a horizontal row below each body copy element where blocks of related content can be placed. Each body copy element can include a sidebar, which also allows blocks of related content. This content type is ideal for breaking up content-heavy pages into separate sections.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

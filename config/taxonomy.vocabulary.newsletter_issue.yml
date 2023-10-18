@@ -1,0 +1,8 @@
+uuid: aca58c85-57fa-4117-8a49-260d0197ee93
+langcode: en
+status: true
+dependencies: {  }
+name: 'Newsletter Issue'
+vid: newsletter_issue
+description: 'Which newsletter was this part of (i.e. Spring 2015)'
+weight: 0

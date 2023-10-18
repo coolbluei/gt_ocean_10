@@ -1,0 +1,19 @@
+uuid: 6bf8136e-c950-42ab-aec6-0792d57c6a82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_building_number
+    - node.type.building_dormgreek
+id: node.building_dormgreek.field_building_number
+field_name: field_building_number
+entity_type: node
+bundle: building_dormgreek
+label: 'Building Number'
+description: 'Official GT building number, as listed on <a href ="http://data.space.gatech.edu/numberall.cfm">http://data.space.gatech.edu/numberall.cfm</a>'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

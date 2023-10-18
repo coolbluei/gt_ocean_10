@@ -1,0 +1,126 @@
+uuid: d5923774-9ba1-4db1-aa0b-a4ff0fe122df
+langcode: en
+status: true
+dependencies: {  }
+id: upgrade_d7_node_complete_asbestos_sample
+class: Drupal\node\Plugin\migrate\D7NodeTranslation
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 7'
+  - Content
+migration_group: migrate_drupal_7
+label: 'Node complete (Asbestos Sample)'
+source:
+  plugin: d7_node_complete
+  node_type: asbestos_sample
+process:
+  nid:
+    -
+      plugin: get
+      source: tnid
+  vid:
+    -
+      plugin: get
+      source: vid
+  langcode:
+    -
+      plugin: default_value
+      source: language
+      default_value: und
+  title:
+    -
+      plugin: get
+      source: title
+  uid:
+    -
+      plugin: get
+      source: node_uid
+  status:
+    -
+      plugin: get
+      source: status
+  created:
+    -
+      plugin: get
+      source: created
+  changed:
+    -
+      plugin: get
+      source: timestamp
+  promote:
+    -
+      plugin: get
+      source: promote
+  sticky:
+    -
+      plugin: get
+      source: sticky
+  revision_uid:
+    -
+      plugin: get
+      source: revision_uid
+  revision_log:
+    -
+      plugin: get
+      source: log
+  revision_timestamp:
+    -
+      plugin: get
+      source: timestamp
+  content_translation_source:
+    -
+      plugin: get
+      source: source_langcode
+  comment_node_asbestos_sample/0/status:
+    -
+      plugin: get
+      source: comment
+  body:
+    -
+      plugin: get
+      source: body
+  field_date_sampled:
+    -
+      plugin: sub_process
+      source: field_date_sampled
+      process:
+        value:
+          plugin: format_date
+          from_format: 'Y-m-d H:i:s'
+          to_format: Y-m-d
+          source: value
+  field_floor:
+    -
+      plugin: get
+      source: field_floor
+  field_room_area:
+    -
+      plugin: get
+      source: field_room_area
+  field_material_sampled:
+    -
+      plugin: get
+      source: field_material_sampled
+  field_asbestos_present_:
+    -
+      plugin: get
+      source: field_asbestos_present_
+  field_acm_abated_:
+    -
+      plugin: get
+      source: field_acm_abated_
+  field_building_all:
+    -
+      plugin: get
+      source: field_building_all
+destination:
+  plugin: 'entity_complete:node'
+  translations: true
+  default_bundle: asbestos_sample
+migration_dependencies:
+  required:
+    - upgrade_d7_user
+    - upgrade_d7_node_type
+  optional:
+    - upgrade_d7_field_instance

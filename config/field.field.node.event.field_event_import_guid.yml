@@ -1,0 +1,19 @@
+uuid: 03d626e4-670d-4d5f-84ac-062e73160099
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_import_guid
+    - node.type.event
+id: node.event.field_event_import_guid
+field_name: field_event_import_guid
+entity_type: node
+bundle: event
+label: 'Guid (from import)'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

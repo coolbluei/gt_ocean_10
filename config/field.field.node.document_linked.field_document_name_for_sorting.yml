@@ -1,0 +1,19 @@
+uuid: 16e219cb-371e-440f-9d01-0b2448e6a3a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_document_name_for_sorting
+    - node.type.document_linked
+id: node.document_linked.field_document_name_for_sorting
+field_name: field_document_name_for_sorting
+entity_type: node
+bundle: document_linked
+label: 'Document Name for Sorting'
+description: 'used to sort documents alphabetically'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

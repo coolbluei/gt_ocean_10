@@ -1,0 +1,60 @@
+uuid: 15d741f2-2ce6-41f9-8271-e60ea6e3e8d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.emergency_response.body
+    - field.field.node.emergency_response.field_emergency_page_link
+    - field.field.node.emergency_response.field_emergency_phone_number
+    - field.field.node.emergency_response.field_emergency_type
+    - node.type.emergency_response
+  module:
+    - link
+    - text
+    - user
+id: node.emergency_response.default
+targetEntityType: node
+bundle: emergency_response
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_emergency_page_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_emergency_phone_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_emergency_type:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

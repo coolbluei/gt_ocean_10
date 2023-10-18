@@ -1,0 +1,27 @@
+uuid: 3e00bd08-f67e-43f9-82b6-f6b3ac3850bd
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_gtct_cs_title_placement
+field_name: field_gtct_cs_title_placement
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: left
+      label: Left
+    -
+      value: right
+      label: Right
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

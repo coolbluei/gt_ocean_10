@@ -1,0 +1,8 @@
+uuid: f02a2314-4f06-48df-adf0-ef747ee01e3c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event Extra'
+vid: event_extra
+description: ''
+weight: 0

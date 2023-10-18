@@ -1,0 +1,23 @@
+uuid: ec7f4605-92b0-4979-afba-7dfb754ca831
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gtct_cs_title_placement
+    - node.type.gt_ct_carousel_slide
+  module:
+    - options
+id: node.gt_ct_carousel_slide.field_gtct_cs_title_placement
+field_name: field_gtct_cs_title_placement
+entity_type: node
+bundle: gt_ct_carousel_slide
+label: 'Title Placement'
+description: 'Select a placement for the title. '
+required: true
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

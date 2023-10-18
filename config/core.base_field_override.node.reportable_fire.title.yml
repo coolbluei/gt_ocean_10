@@ -1,0 +1,18 @@
+uuid: 46e1a376-ba86-443a-80c9-8e01ad287cb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.reportable_fire
+id: node.reportable_fire.title
+field_name: title
+entity_type: node
+bundle: reportable_fire
+label: 'Brief description of fire'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

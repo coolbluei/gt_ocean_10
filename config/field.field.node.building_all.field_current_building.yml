@@ -1,0 +1,23 @@
+uuid: 4d5abb5a-4a78-48cd-9745-b11c77bc85a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_current_building
+    - node.type.building_all
+id: node.building_all.field_current_building
+field_name: field_current_building
+entity_type: node
+bundle: building_all
+label: 'Current Building'
+description: 'Is this building a current GT building?'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

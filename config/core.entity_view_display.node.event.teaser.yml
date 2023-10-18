@@ -1,0 +1,91 @@
+uuid: 97ccff14-3feb-4523-8a8e-f8c98123965e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event.field_event_attachment_url
+    - field.field.node.event.field_event_audience
+    - field.field.node.event.field_event_body
+    - field.field.node.event.field_event_boilerplate
+    - field.field.node.event.field_event_category
+    - field.field.node.event.field_event_contact
+    - field.field.node.event.field_event_extra
+    - field.field.node.event.field_event_fee
+    - field.field.node.event.field_event_group
+    - field.field.node.event.field_event_group_primary
+    - field.field.node.event.field_event_image
+    - field.field.node.event.field_event_image_title
+    - field.field.node.event.field_event_import_guid
+    - field.field.node.event.field_event_keyword
+    - field.field.node.event.field_event_location
+    - field.field.node.event.field_event_location_email
+    - field.field.node.event.field_event_location_phone
+    - field.field.node.event.field_event_location_url
+    - field.field.node.event.field_event_nodeid
+    - field.field.node.event.field_event_sidebar
+    - field.field.node.event.field_event_summary
+    - field.field.node.event.field_event_summary_sentence
+    - field.field.node.event.field_event_time
+    - field.field.node.event.field_event_url_related
+    - node.type.event
+  module:
+    - datetime
+    - user
+id: node.event.teaser
+targetEntityType: node
+bundle: event
+mode: teaser
+content:
+  field_event_group:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_event_location:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_event_time:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: long
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_event_attachment_url: true
+  field_event_audience: true
+  field_event_body: true
+  field_event_boilerplate: true
+  field_event_category: true
+  field_event_contact: true
+  field_event_extra: true
+  field_event_fee: true
+  field_event_group_primary: true
+  field_event_image: true
+  field_event_image_title: true
+  field_event_import_guid: true
+  field_event_keyword: true
+  field_event_location_email: true
+  field_event_location_phone: true
+  field_event_location_url: true
+  field_event_nodeid: true
+  field_event_sidebar: true
+  field_event_summary: true
+  field_event_summary_sentence: true
+  field_event_url_related: true

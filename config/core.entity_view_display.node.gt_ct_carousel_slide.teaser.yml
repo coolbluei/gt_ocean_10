@@ -1,0 +1,36 @@
+uuid: f42b7a53-a754-4e16-b2fb-37af302ba346
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.gt_ct_carousel_slide.field_gtct_cs_bg_color
+    - field.field.node.gt_ct_carousel_slide.field_gtct_cs_bg_image
+    - field.field.node.gt_ct_carousel_slide.field_gtct_cs_link_location
+    - field.field.node.gt_ct_carousel_slide.field_gtct_cs_overlay_image
+    - field.field.node.gt_ct_carousel_slide.field_gtct_cs_summary_sentence
+    - field.field.node.gt_ct_carousel_slide.field_gtct_cs_title
+    - field.field.node.gt_ct_carousel_slide.field_gtct_cs_title_graphic
+    - field.field.node.gt_ct_carousel_slide.field_gtct_cs_title_placement
+    - node.type.gt_ct_carousel_slide
+  module:
+    - user
+id: node.gt_ct_carousel_slide.teaser
+targetEntityType: node
+bundle: gt_ct_carousel_slide
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_gtct_cs_bg_color: true
+  field_gtct_cs_bg_image: true
+  field_gtct_cs_link_location: true
+  field_gtct_cs_overlay_image: true
+  field_gtct_cs_summary_sentence: true
+  field_gtct_cs_title: true
+  field_gtct_cs_title_graphic: true
+  field_gtct_cs_title_placement: true

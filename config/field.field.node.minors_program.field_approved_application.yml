@@ -1,0 +1,27 @@
+uuid: 7bf6be87-9906-4368-8ab7-ca35209daf39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_approved_application
+    - node.type.minors_program
+  module:
+    - file
+id: node.minors_program.field_approved_application
+field_name: field_approved_application
+entity_type: node
+bundle: minors_program
+label: 'Approved Application'
+description: 'Upload the approved application, signed by the AVP of EHS'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: minors
+  file_extensions: 'pdf docx'
+  max_filesize: ''
+  description_field: false
+field_type: file

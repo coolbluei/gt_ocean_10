@@ -1,0 +1,23 @@
+uuid: c7c28f79-50d5-40d8-b1fc-fb29d195270e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.emergency_response
+  module:
+    - text
+id: node.emergency_response.body
+field_name: body
+entity_type: node
+bundle: emergency_response
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,16 @@
+uuid: 8abcf82e-f790-4e5d-a272-1c4586f5ccd2
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    parent: 'main-menu:0:'
+name: Person
+type: person
+description: 'Personal information about an employee'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

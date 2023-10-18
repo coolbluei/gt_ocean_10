@@ -1,0 +1,14 @@
+uuid: 4228e430-1da2-4bcd-bd4b-8584eb2e06fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.aed_inspector
+  module:
+    - user
+id: user_remove_role_action.aed_inspector
+label: 'Remove the AED Inspector role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: aed_inspector

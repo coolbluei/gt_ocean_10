@@ -1,0 +1,28 @@
+uuid: 79cbb710-a8b1-4ef4-b5ac-02676d63efcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gt_account
+    - node.type.person
+id: node.person.field_gt_account
+field_name: field_gt_account
+entity_type: node
+bundle: person
+label: 'GT account'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    behaviors:
+      views-select-list:
+        status: 0
+field_type: entity_reference

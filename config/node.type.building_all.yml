@@ -1,0 +1,18 @@
+uuid: 50182947-7a5f-4c86-8793-6b96011d35c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+    parent: 'main-menu:0:'
+name: Building-All
+type: building_all
+description: 'GT Buildings on campus (all, not just dorms & greek houses)'
+help: "In the form of Building-###@\r\nex. Building-061A for 430 10th Street South Building"
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,20 @@
+uuid: 14d2cc3b-f8e6-4a65-a480-ea3148a111d9
+langcode: und
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - node
+id: node.field_start_end_dates
+field_name: field_start_end_dates
+entity_type: node
+type: daterange
+settings:
+  datetime_type: date
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

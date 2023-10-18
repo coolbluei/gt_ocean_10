@@ -1,0 +1,17 @@
+uuid: 3e876599-a02b-4442-85d8-91c07ec1bfef
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event
+    - node.type.gt_calendar_feed
+  module:
+    - node
+id: gt_calendar_manager
+label: 'GT Calendar Manager'
+weight: 5
+is_admin: null
+permissions:
+  - 'create event content'
+  - 'create gt_calendar_feed content'
+  - 'edit any gt_calendar_feed content'

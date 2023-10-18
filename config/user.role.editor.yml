@@ -1,0 +1,71 @@
+uuid: 828f8dc5-f24b-44bf-83fd-0fed87f95dbf
+langcode: en
+status: false
+dependencies:
+  config:
+    - filter.format.minimal_html
+    - filter.format.text_editor_advanced
+    - filter.format.text_editor_basic
+    - node.type.book
+    - node.type.document
+    - node.type.document_linked
+    - node.type.horizontal_landing_page
+    - node.type.multipurpose_page
+    - node.type.page
+    - node.type.question
+    - node.type.super_block
+    - node.type.vertical_landing_page
+  module:
+    - block
+    - block_content
+    - contextual
+    - filter
+    - node
+    - search
+    - system
+_core:
+  default_config_hash: 35ekF6FOnrkLPDv56FmfWYn6H5C2aQbPVD88_Q4ddQk
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access block library'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access site in maintenance mode'
+  - 'administer block content'
+  - 'administer block types'
+  - 'administer blocks'
+  - 'create document content'
+  - 'create document_linked content'
+  - 'create horizontal_landing_page content'
+  - 'create multipurpose_page content'
+  - 'create page content'
+  - 'create question content'
+  - 'create super_block content'
+  - 'create vertical_landing_page content'
+  - 'delete any book content'
+  - 'delete any document content'
+  - 'delete any document_linked content'
+  - 'delete any horizontal_landing_page content'
+  - 'delete any multipurpose_page content'
+  - 'delete any page content'
+  - 'delete any question content'
+  - 'delete any super_block content'
+  - 'delete any vertical_landing_page content'
+  - 'edit any book content'
+  - 'edit any document content'
+  - 'edit any document_linked content'
+  - 'edit any horizontal_landing_page content'
+  - 'edit any multipurpose_page content'
+  - 'edit any page content'
+  - 'edit any question content'
+  - 'edit any super_block content'
+  - 'edit any vertical_landing_page content'
+  - 'search content'
+  - 'use text format minimal_html'
+  - 'use text format text_editor_advanced'
+  - 'use text format text_editor_basic'
+  - 'view own unpublished content'

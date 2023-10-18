@@ -1,0 +1,26 @@
+uuid: b191f466-6595-4585-943c-799f580d7dae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ehs_office2
+    - node.type.person
+    - taxonomy.vocabulary.ehs_offices
+id: node.person.field_ehs_office2
+field_name: field_ehs_office2
+entity_type: node
+bundle: person
+label: 'EHS Office'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ehs_offices: ehs_offices
+    sort:
+      field: _none
+field_type: entity_reference

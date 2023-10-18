@@ -1,0 +1,10 @@
+uuid: 6afd035d-ba41-419c-8a82-d966cbe25d2b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.entityreference_view_widget
+label: entityreference_view_widget
+targetEntityType: node
+cache: true

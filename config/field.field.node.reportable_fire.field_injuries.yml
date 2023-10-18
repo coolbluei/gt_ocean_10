@@ -1,0 +1,25 @@
+uuid: 5ba5da17-73cf-440c-8146-eca059e6af3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_injuries
+    - node.type.reportable_fire
+id: node.reportable_fire.field_injuries
+field_name: field_injuries
+entity_type: node
+bundle: reportable_fire
+label: Injuries
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

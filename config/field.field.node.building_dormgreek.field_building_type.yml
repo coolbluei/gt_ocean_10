@@ -1,0 +1,26 @@
+uuid: c267d723-33aa-44e7-aacc-1b8e30ab5166
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_building_type
+    - node.type.building_dormgreek
+    - taxonomy.vocabulary.building_type
+id: node.building_dormgreek.field_building_type
+field_name: field_building_type
+entity_type: node
+bundle: building_dormgreek
+label: 'Building Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      building_type: building_type
+    sort:
+      field: _none
+field_type: entity_reference

@@ -1,0 +1,20 @@
+uuid: 1ef3b3cf-d934-467f-81ac-b604a80bdc9b
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_event_group_primary
+field_name: field_event_group_primary
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

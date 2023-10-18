@@ -1,0 +1,23 @@
+uuid: 4725027b-c386-4f27-858c-90e224a3ca7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_review_status
+    - node.type.minors_program
+  module:
+    - options
+id: node.minors_program.field_review_status
+field_name: field_review_status
+entity_type: node
+bundle: minors_program
+label: 'Review Status'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: initially_submitted
+default_value_callback: ''
+settings: {  }
+field_type: list_string

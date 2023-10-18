@@ -1,0 +1,8 @@
+uuid: 5620e8c6-2314-4f72-9e0e-b9fee627c5c6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event Keyword'
+vid: event_keyword
+description: ''
+weight: 0

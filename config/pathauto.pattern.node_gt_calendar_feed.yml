@@ -1,0 +1,21 @@
+uuid: f3e3dc5a-8561-47c5-bb51-b88ea30687b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_gt_calendar_feed
+label: 'Content - Feed URL (GT Calendar)'
+type: 'canonical_entities:node'
+pattern: 'feeds/calendar/[node:nid]'
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      gt_calendar_feed: gt_calendar_feed
+selection_logic: and
+weight: 0
+relationships: {  }

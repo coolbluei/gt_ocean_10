@@ -1,0 +1,26 @@
+uuid: 46be891d-16d0-47bf-83a3-6b295ac61a48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_newsletter_issue
+    - node.type.article
+    - taxonomy.vocabulary.newsletter_issue
+id: node.article.field_newsletter_issue
+field_name: field_newsletter_issue
+entity_type: node
+bundle: article
+label: 'Newsletter Issue'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      newsletter_issue: newsletter_issue
+    sort:
+      field: _none
+field_type: entity_reference

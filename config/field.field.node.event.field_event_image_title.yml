@@ -1,0 +1,19 @@
+uuid: 8494246e-ffcb-4204-9880-e5695d6a60c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_image_title
+    - node.type.event
+id: node.event.field_event_image_title
+field_name: field_event_image_title
+entity_type: node
+bundle: event
+label: 'Image (title)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: a6f51ab4-c4de-4287-84f3-5a4364c48a36
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_cause_of_fire
+field_name: field_cause_of_fire
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

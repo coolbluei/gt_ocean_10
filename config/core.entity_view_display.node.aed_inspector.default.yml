@@ -1,0 +1,63 @@
+uuid: 366bdba1-f1ad-47c2-b778-37cda8ad82d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.aed_inspector.field_active
+    - field.field.node.aed_inspector.field_email_address1
+    - field.field.node.aed_inspector.field_name
+    - field.field.node.aed_inspector.field_phone_number
+    - field.field.node.aed_inspector.field_user
+    - node.type.aed_inspector
+  module:
+    - options
+    - user
+id: node.aed_inspector.default
+targetEntityType: node
+bundle: aed_inspector
+mode: default
+content:
+  field_active:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_email_address1:
+    type: email_mailto
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_phone_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_user:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

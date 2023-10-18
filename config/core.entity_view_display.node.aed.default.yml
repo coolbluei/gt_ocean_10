@@ -1,0 +1,152 @@
+uuid: 378af12c-135c-41bc-9c4d-739e3c7e622f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.aed.field_active
+    - field.field.node.aed.field_barcode_number
+    - field.field.node.aed.field_battery_date
+    - field.field.node.aed.field_battery_expiration_date
+    - field.field.node.aed.field_brand
+    - field.field.node.aed.field_building_all
+    - field.field.node.aed.field_childrens_pads_expiration
+    - field.field.node.aed.field_location
+    - field.field.node.aed.field_model_number
+    - field.field.node.aed.field_pads_expiration_date
+    - field.field.node.aed.field_serial_number
+    - field.field.node.aed.field_spare_battery_date
+    - field.field.node.aed.field_spare_pads_expiration_date
+    - field.field.node.aed.field_user
+    - node.type.aed
+  module:
+    - datetime
+    - options
+    - user
+id: node.aed.default
+targetEntityType: node
+bundle: aed
+mode: default
+content:
+  field_active:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_barcode_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_battery_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: long
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_battery_expiration_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: long
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_brand:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_building_all:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_childrens_pads_expiration:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: long
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_location:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_model_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_pads_expiration_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: long
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_serial_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_spare_battery_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: long
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_spare_pads_expiration_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: long
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_user:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

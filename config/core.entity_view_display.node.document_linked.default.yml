@@ -1,0 +1,62 @@
+uuid: 9a905b75-4061-47e6-8b7a-9aa1466d8aa6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.document_linked.body
+    - field.field.node.document_linked.field_document_name_for_sorting
+    - field.field.node.document_linked.field_document_type
+    - field.field.node.document_linked.field_ehs_office2
+    - field.field.node.document_linked.field_link_location
+    - node.type.document_linked
+  module:
+    - link
+    - text
+    - user
+id: node.document_linked.default
+targetEntityType: node
+bundle: document_linked
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_document_type:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_ehs_office2:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_link_location:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_document_name_for_sorting: true

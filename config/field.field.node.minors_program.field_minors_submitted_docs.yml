@@ -1,0 +1,27 @@
+uuid: 27d26dc3-b572-41c4-b47a-478f5920f409
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_minors_submitted_docs
+    - node.type.minors_program
+  module:
+    - file
+id: node.minors_program.field_minors_submitted_docs
+field_name: field_minors_submitted_docs
+entity_type: node
+bundle: minors_program
+label: 'Submitted Documents'
+description: 'Upload all required completed forms found at <a href="ehs.gatech.edu/node/458">Minors in the Lab</a>.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: minors
+  file_extensions: 'pdf docx'
+  max_filesize: ''
+  description_field: false
+field_type: file

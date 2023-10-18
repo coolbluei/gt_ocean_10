@@ -1,0 +1,8 @@
+uuid: 4123c61a-c1a6-4d16-88ec-cb37db9441ca
+langcode: en
+status: true
+dependencies: {  }
+name: 'EHS Offices'
+vid: ehs_offices
+description: 'Sub-parts of EHS'
+weight: 0

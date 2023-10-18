@@ -1,0 +1,18 @@
+uuid: 6f7c4cd5-fa61-428f-b803-4f64f2e7d64f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main-menu
+    parent: 'main-menu:0:'
+name: 'Horizontal landing page'
+type: horizontal_landing_page
+description: 'Horizontal landing pages provide four rows stacked horizontally below the main body copy where blocks can be included. Node entities that are available as blocks via the nodeblock module can be placed within the four horizontal rows. This content type is ideal for organizing page content into a horizontal format.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

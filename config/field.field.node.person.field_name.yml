@@ -1,0 +1,19 @@
+uuid: be144eee-f8de-4f83-8393-8b194ee25c09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.person
+id: node.person.field_name
+field_name: field_name
+entity_type: node
+bundle: person
+label: Name
+description: 'Full name (first and last)'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

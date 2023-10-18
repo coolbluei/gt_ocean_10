@@ -1,0 +1,30 @@
+uuid: eac6cd05-bb3b-4270-b26b-0dc02cd7dafe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gtct_crsl_slides
+    - node.type.gt_ct_carousel
+    - node.type.gt_ct_carousel_slide
+id: node.gt_ct_carousel.field_gtct_crsl_slides
+field_name: field_gtct_crsl_slides
+entity_type: node
+bundle: gt_ct_carousel
+label: Slides
+description: 'Select the carousel slides to be included in this carousel. '
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      gt_ct_carousel_slide: gt_ct_carousel_slide
+    sort:
+      field: title
+      direction: ASC
+    behaviors:
+      views-select-list:
+        status: 0
+field_type: entity_reference

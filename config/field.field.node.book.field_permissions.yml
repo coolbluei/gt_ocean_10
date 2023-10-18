@@ -1,0 +1,28 @@
+uuid: e7f05bb0-5fe8-495c-b7c5-861a75cb8623
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_permissions
+    - node.type.book
+    - taxonomy.vocabulary.ehs_vs_public
+id: node.book.field_permissions
+field_name: field_permissions
+entity_type: node
+bundle: book
+label: Permissions
+description: 'Choose "EHS staff only" if this page should only be visible to EHS staff. Otherwise, choose "Public access".'
+required: false
+translatable: false
+default_value:
+  -
+    tid: '86'
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ehs_vs_public: ehs_vs_public
+    sort:
+      field: _none
+field_type: entity_reference

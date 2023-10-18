@@ -1,0 +1,21 @@
+uuid: bef1adf4-99d6-4dc3-9767-61defaeeef51
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_super_block
+label: 'Content - Super Block'
+type: 'canonical_entities:node'
+pattern: 'super-block/[node:nid]'
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      super_block: super_block
+selection_logic: and
+weight: 0
+relationships: {  }

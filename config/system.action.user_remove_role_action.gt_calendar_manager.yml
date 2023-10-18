@@ -1,0 +1,14 @@
+uuid: ad06b6e5-7b42-4f63-a9d8-0dc1ca086c9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.gt_calendar_manager
+  module:
+    - user
+id: user_remove_role_action.gt_calendar_manager
+label: 'Remove the GT Calendar Manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gt_calendar_manager

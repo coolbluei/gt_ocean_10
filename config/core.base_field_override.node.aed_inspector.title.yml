@@ -1,0 +1,18 @@
+uuid: fcd023ed-a5fc-4742-8a43-3b4afed7bcde
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.aed_inspector
+id: node.aed_inspector.title
+field_name: title
+entity_type: node
+bundle: aed_inspector
+label: 'AED Inspector - Last Name, First Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

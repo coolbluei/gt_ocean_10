@@ -1,0 +1,20 @@
+uuid: 18296ac4-a230-4a08-ae79-f32c75b119cd
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_permissions
+field_name: field_permissions
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

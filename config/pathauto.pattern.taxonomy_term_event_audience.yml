@@ -1,0 +1,21 @@
+uuid: 08f223cc-64c6-4051-96d8-bac22b68e9c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term_event_audience
+label: 'Taxonomy term - Event Audience'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'tags/event/audience/[term:name]'
+selection_criteria:
+  -
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      event_audience: event_audience
+selection_logic: and
+weight: 0
+relationships: {  }

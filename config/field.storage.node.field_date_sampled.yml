@@ -1,0 +1,20 @@
+uuid: 07e15d7f-b697-4020-8bfa-a747df78bae3
+langcode: und
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_date_sampled
+field_name: field_date_sampled
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

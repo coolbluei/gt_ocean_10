@@ -1,0 +1,19 @@
+uuid: 9c71df11-6460-4835-af40-213d9d9ebe6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_room_area
+    - node.type.asbestos_sample
+id: node.asbestos_sample.field_room_area
+field_name: field_room_area
+entity_type: node
+bundle: asbestos_sample
+label: Room/Area
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

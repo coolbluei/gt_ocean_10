@@ -1,0 +1,44 @@
+uuid: 3fc6e2c3-cae8-4ce6-8125-de21d3affa35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.multipurpose_page.field_body_1
+    - field.field.node.multipurpose_page.field_body_2
+    - field.field.node.multipurpose_page.field_body_3
+    - node.type.multipurpose_page
+  module:
+    - text
+    - user
+id: node.multipurpose_page.default
+targetEntityType: node
+bundle: multipurpose_page
+mode: default
+content:
+  field_body_1:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_body_2:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_body_3:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

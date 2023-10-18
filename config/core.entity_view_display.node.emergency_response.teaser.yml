@@ -1,0 +1,36 @@
+uuid: 9c0c8f58-51d1-4a46-abab-dfd24b251eaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.emergency_response.body
+    - field.field.node.emergency_response.field_emergency_page_link
+    - field.field.node.emergency_response.field_emergency_phone_number
+    - field.field.node.emergency_response.field_emergency_type
+    - node.type.emergency_response
+  module:
+    - text
+    - user
+id: node.emergency_response.teaser
+targetEntityType: node
+bundle: emergency_response
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_emergency_page_link: true
+  field_emergency_phone_number: true
+  field_emergency_type: true

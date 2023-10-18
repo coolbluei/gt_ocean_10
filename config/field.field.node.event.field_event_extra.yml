@@ -1,0 +1,26 @@
+uuid: cf98d85e-4f6b-472f-bfec-e37568c335d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_extra
+    - node.type.event
+    - taxonomy.vocabulary.event_extra
+id: node.event.field_event_extra
+field_name: field_event_extra
+entity_type: node
+bundle: event
+label: Extra
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      event_extra: event_extra
+    sort:
+      field: _none
+field_type: entity_reference

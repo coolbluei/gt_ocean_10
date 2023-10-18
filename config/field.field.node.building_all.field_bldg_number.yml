@@ -1,0 +1,19 @@
+uuid: 3478843a-0330-4029-8eda-85af14fd9763
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bldg_number
+    - node.type.building_all
+id: node.building_all.field_bldg_number
+field_name: field_bldg_number
+entity_type: node
+bundle: building_all
+label: 'Building Number'
+description: "Use the official GT building number from this list. http://data.space.gatech.edu/numberall.cfm\r\nThe authoritative source is found on the CPSM website. http://space.gatech.edu"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
