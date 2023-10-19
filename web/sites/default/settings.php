@@ -32,20 +32,7 @@ $settings['file_scan_ignore_directories'] = [
 // This is defined inside the read-only "config" directory, deployed via Git.
 $settings['config_sync_directory'] = '../config';
 
-// Automatic Platform.sh settings.
-if (file_exists($app_root . '/' . $site_path . '/settings.platformsh.php')) {
-  include $app_root . '/' . $site_path . '/settings.platformsh.php';
-}
-
 // Local settings. These come last so that they can override anything.
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
-}
-
-$settings['hash_salt'] = '-YgLb-jDKdYJ2j3t7NB9BajOPobOZFptPWO9uADN17TeXC4uc_DAgoyweyHjXxtBeSNiwwn5cA';
-
-// Automatically generated include for settings managed by ddev.
-$ddev_settings = dirname(__FILE__) . '/settings.ddev.php';
-if (is_readable($ddev_settings) && getenv('IS_DDEV_PROJECT') == 'true') {
-  require $ddev_settings;
 }
