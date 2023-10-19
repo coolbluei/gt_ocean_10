@@ -14,20 +14,20 @@
             "url": "https://packages.drupal.org/8"
         },
         {
-            "type": "vcs",
-            "url": "https://github.gatech.edu/ICWebTeam/gt_profile.git"
+            "type": "path",
+            "url": "gt/gt_profile"
         },
         {
-            "type": "vcs",
-            "url": "https://github.gatech.edu/ICWebTeam/gt_theme.git"
+            "type": "path",
+            "url": "gt/gt_theme"
         },
         {
-            "type": "vcs",
-            "url": "https://github.gatech.edu/ICWebTeam/gt_tools.git"
+            "type": "path",
+            "url": "gt/gt_tools"
         },
         {
-            "type": "vcs",
-            "url": "https://github.gatech.edu/ICWebTeam/hg_reader.git"
+            "type": "path",
+            "url": "gt/hg_reader"
         }
     ],
     "require": {
@@ -59,17 +59,17 @@
         "drupal/views_accordion": "^2.0",
         "drupal/webform": "^6.2@beta",
         "drush/drush": "^11.0",
-        "gt/gt_profile": "^4.0",
-        "gt/gt_theme": "^4.0",
-        "gt/gt_tools": "^4.0",
-        "gt/hg_reader": "^4.0",
+        "gt/gt_profile": "*",
+        "gt/gt_theme": "*",
+        "gt/gt_tools": "*",
+        "gt/hg_reader": "*",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
