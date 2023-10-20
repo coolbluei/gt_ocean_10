@@ -1,0 +1,25 @@
+uuid: 561d603f-931d-4cf7-8848-bdab2cd9f1f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gt_custom
+_core:
+  default_config_hash: 2ABvi_us1oUwjBVkU4gSQWjn6L3gr4_cCF6Nr4Uf4mg
+id: gt_custom_branding
+theme: gt_custom
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

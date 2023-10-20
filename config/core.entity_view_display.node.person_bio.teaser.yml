@@ -22,70 +22,44 @@ dependencies:
     - field.field.node.person_bio.field_research_keywords
     - field.field.node.person_bio.field_research_theme
     - field.field.node.person_bio.field_social_media
-    - image.style.thumbnail
+    - image.style.person_bio
     - node.type.person_bio
   module:
+    - field_formatter_class
     - image
-    - link
-    - name
     - user
 id: node.person_bio.teaser
 targetEntityType: node
 bundle: person_bio
 mode: teaser
 content:
-  field_person_bio_email:
-    type: email_mailto
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 4
-    region: content
-  field_person_bio_name:
-    type: name_default
-    label: hidden
-    settings:
-      format: default
-      markup: '0'
-      list_format: ''
-      link_target: ''
-      preferred_field_reference: ''
-      preferred_field_reference_separator: ', '
-      alternative_field_reference: ''
-      alternative_field_reference_separator: ', '
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  field_person_bio_phone:
+  field_home_school_code:
     type: string
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 5
+    weight: 4
+    region: content
+  field_person_bio_email:
+    type: email_mailto
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
     region: content
   field_person_bio_photo:
     type: image
     label: hidden
     settings:
       image_link: content
-      image_style: thumbnail
+      image_style: person_bio
       image_loading:
         attribute: lazy
-    third_party_settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: ''
     weight: 0
-    region: content
-  field_person_bio_related_links:
-    type: link
-    label: inline
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
-    weight: 6
     region: content
   field_person_bio_title:
     type: string
@@ -93,23 +67,28 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
-  links:
-    settings: {  }
+  field_research_keywords:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    weight: 100
+    weight: 2
     region: content
 hidden:
   field_areas_of_specialization: true
   field_education: true
   field_faculty_title_2: true
-  field_home_school_code: true
   field_institute_affiliation: true
   field_leadership_type: true
   field_person_bio_bio_type: true
+  field_person_bio_name: true
+  field_person_bio_phone: true
+  field_person_bio_related_links: true
   field_person_bio_text: true
   field_recent_publications: true
-  field_research_keywords: true
   field_research_theme: true
   field_social_media: true
+  links: true

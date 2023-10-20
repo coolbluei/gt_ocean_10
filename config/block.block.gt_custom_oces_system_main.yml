@@ -1,0 +1,22 @@
+uuid: 16c8e580-a58e-4b11-8bca-08a730568fee
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gt_custom
+_core:
+  default_config_hash: fEXmvhXSHFjanAL1m4kgAmvFRH43L4LYPcrt5DvpoPE
+id: gt_custom_oces_system_main
+theme: gt_custom
+region: content
+weight: -50
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

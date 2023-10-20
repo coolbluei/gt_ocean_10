@@ -5,11 +5,17 @@ dependencies: {  }
 name: person_bio
 label: 'Person Bio'
 effects:
-  814b5115-837e-4b9d-8f2d-b3c16f227293:
-    uuid: 814b5115-837e-4b9d-8f2d-b3c16f227293
-    id: image_scale
+  97e2c816-ebfd-4f1d-9c80-6e1d1de3556e:
+    uuid: 97e2c816-ebfd-4f1d-9c80-6e1d1de3556e
+    id: image_convert
     weight: 1
+    data:
+      extension: jpeg
+  d7bffb9a-25b4-4576-bd43-d60f3c361629:
+    uuid: d7bffb9a-25b4-4576-bd43-d60f3c361629
+    id: image_scale_and_crop
+    weight: 2
     data:
       width: 150
       height: 200
-      upscale: false
+      anchor: center-center

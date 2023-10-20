@@ -1,0 +1,18 @@
+parent:
+  version: VERSION
+  css:
+    theme:
+      css/parent.css:
+        weight: -10
+custom_style:
+  version: VERSION
+  css:
+    theme:
+      css/custom_style.css:
+        weight: -10
+book:
+  version: VERSION
+  css:
+    theme:
+      templates/book/book.css:
+        weight: -10

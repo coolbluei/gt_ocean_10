@@ -1,0 +1,27 @@
+uuid: 45f14c91-c9e3-4a40-9fbc-e2fbddc1879e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.gt-footer-04
+  module:
+    - system
+  theme:
+    - gt_custom
+_core:
+  default_config_hash: zNTQ9vZYLHBwWF1iIoXrMf79vQlhSCK0pksVECf57E0
+id: gt_custom_footer_04
+theme: gt_custom
+region: footer_04
+weight: 0
+provider: null
+plugin: 'system_menu_block:gt-footer-04'
+settings:
+  id: 'system_menu_block:gt-footer-04'
+  label: 'GT super footer: column 4 (optional)'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

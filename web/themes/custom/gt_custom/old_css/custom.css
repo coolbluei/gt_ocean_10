@@ -1,0 +1,709 @@
+/**
+ * @file
+ * A CSS style sheet to be used for custom styling.
+ *
+ * Just be sure to make a backup of this file prior to updating to a new version of the GT Subtheme,
+ * or your styles will get overridden when updating.
+ * After updating you'll need to replace this file with your backup.
+ *
+ */
+
+img.uploaded-logo-file {
+    margin: 0.15em 0.5em;
+    width: 8em;
+}
+
+body.front #breadcrumb {
+ display:none;
+}
+
+/* MANU custom for Research landing page */
+body.page-node-446 #breadcrumb {
+ display:none;
+}
+body.page-node-446 #page-title {
+ display:none;
+}
+
+body.page-node-446 .block .block-body {
+  padding:0;
+}
+
+body.page-node-455 #breadcrumb {
+ display:none;
+}
+body.page-node-455 #page-title {
+ display:none;
+}
+
+body.page-node-455 .block .block-body {
+  padding:0;
+}
+
+
+
+
+body.front #block-nodeblock-159 .block-body {
+  padding:0;
+}
+
+/* MANU this works for MD slider */
+body.front .block .block-body {
+  padding:0;
+}
+
+
+/* GT Carousel Styles */
+
+ .flexslider .slides img {
+width: 100%; 
+height:500px;
+display: block; }
+
+.carousel-159 ul.slides li {
+  max-height: 500px;
+}
+
+.gtct-carousel-slide__bg-image {
+  max-height:500px;
+}
+
+.gtct-carousel-slide__overlay-image {
+max-width:100% !important;
+}
+
+.gtct-carousel-slide__title-wrapper.title-left .gtct-carousel-slide__title-static {
+left:0px
+}
+
+/* MANU edit here for carousel title font */
+.gtct-carousel-slide__title-static .gtct-carousel-slide__title-text {
+font-size: 1.5em;
+margin-bottom:0; 
+}
+
+h4.gtct-carousel-slide__title-text a {
+color:#ffffff;
+font-size: 1.25em;
+margin-bottom:5px;
+}
+
+.node-gt-ct-carousel .gtct-carousel-slide__title-wrapper {
+width:100%;
+}
+
+#header-spotlight .gtct-carousel-slide__title-wrapper, #header-spotlight .gtct-carousel-slide__overlay-image {
+  height:500px;
+}
+
+.node-gt-ct-carousel .gtct-carousel-slide__title-static {
+bottom:0;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 51em) {
+
+  .gtct-carousel-slide__title-static .gtct-carousel-slide__jumplink {
+    width:auto;
+  }
+
+}
+
+@media only screen and (max-width: 51em) {
+  .node-gt-ct-carousel .gtct-carousel-slide__title-wrapper {
+    width:100%;
+    bottom: 0;
+  }
+
+  .node-gt-ct-carousel .gtct-carousel-slide__title-static {
+    bottom:0;
+  } 
+
+  .gtct-carousel-slide__title-static .gtct-carousel-slide__jumplink {
+    width:auto;
+  }
+
+
+#header-spotlight .gtct-carousel-slide__title-wrapper, #header-spotlight .gtct-carousel-slide__overlay-image {
+    height: 300px;
+}
+
+}
+
+.gtct-carousel-slide__title-static {
+height:auto;
+padding: 20px;
+position: absolute;
+bottom:0px;
+  background-color: transparent;
+  background-color: rgba(0,0,0,0.5);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+  -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+}
+
+.gtct-carousel-slide__title-wrapper .gtct-carousel-slide__title-static::before {
+content:none;
+}
+
+/* MANU text of summary carousel */
+.gtct-carousel-slide__title-static .gtct-carousel-slide__summary-text {
+font-size:1.2em;
+margin-bottom:10px !important;
+
+}
+
+.gtct-carousel-slide__summary-text {
+color:#ffffff;
+}
+
+a.gtct-carousel-slide__jumplink {
+color:#ffffff;
+margin:0 auto;
+width:1170px;
+text-align:right;
+float:none !important;
+}
+
+.gtct-carousel-slide__title-static .gtct-carousel-slide__jumplink:after {
+content:"\f064"
+}
+
+.gtct-carousel__slides-wrapper .flex-control-nav {
+bottom:10px !important
+}
+
+.gtct-carousel__slides-wrapper .flex-direction-nav a {
+top:50%
+}
+
+
+/************************************/
+/*    People                        */
+/************************************/
+
+/* Shared */
+
+/*.circle img, .node-type-person-bio img {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+}*/
+
+/*bio grouping pages */
+.view-staff li.views-fluid-grid-item {
+  background-color: transparent;
+  border: 0;
+}
+
+.views-fluid-grid ul li {
+  margin-bottom:0;
+}
+
+/*.view-staff .views-row-odd {
+ background: #f3f3f3;
+}
+
+.view-staff .views-row-even {
+ background: #E6E6E6;
+}*/
+
+.view-staff .views-field-field-person-bio-photo {
+  /*height: 200px;*/
+  text-align: center;
+}
+
+.view-staff .views-field-title {
+  /*height: 50px;*/
+  margin-bottom: 10px;
+}
+
+.view-staff .views-field-nothing-1, 
+.view-staff .views-field-title, 
+.view-staff .views-field-nothing,
+.view-staff .views-field-field-person-bio-email,
+.view-staff .views-field-field-person-bio-phone
+{
+  font-size: 0.74em;
+}
+
+.view-staff .views-field-nothing a {
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
+/*.view-staff .views-field-nothing-1 {
+  height: 100px;
+}*/
+
+/*individual bio page */
+
+div.view-staff .views-field-nothing-2 a {
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight:bold;
+  color:#00254C;
+  font-size:18px;
+}
+
+div.view-staff .views-field-field-person-bio-title {
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight:normal;
+  color:#000;
+  font-size:15px;  
+}
+
+div.view-staff .views-field-field-research-keywords {
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-style:italic;
+  color:#666;
+  font-size:13px; 
+  padding-bottom: 10px; 
+}
+
+
+div.view-staff .views-field-field-person-bio-email,
+div.view-staff .views-field-field-home-school-code {
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight:bold;
+  color:#00254C;
+  font-size:15px;
+}
+
+
+
+div.field_person_bio_title {
+    font-weight: 500;
+    min-width: 100%;
+    color: #000;
+    font-size: 19px !important;
+    padding: .4em 0;
+}
+
+div.field-name-field-institute-affiliation {
+  padding-bottom: 50px;
+  /*font-size: 19px !important;*/
+  /*font-style: italic;*/
+  color:#666666;
+}
+
+div.field_person_bio_email,
+div.field_person_bio_phone,
+div.field_person_bio_related_links {
+  padding-bottom: 10px;
+}
+
+div.field_person_bio_email a,
+div.field_person_bio_email a:hover,
+div.field_person_bio_phone a,
+div.field_person_bio_phone a:hover,
+div.field_person_bio_related_links a,
+div.field_person_bio_related_links a:hover {
+  color:#00254C;
+}
+
+
+
+div.recent-publication-item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+}
+
+div.recent-publication-item img.recent-publication-icon {
+  width: 50px;
+}
+
+span.recent-publication-title {
+    display: block;
+    padding-top: 15px;
+}
+
+div.node.node-person-bio.node-full div.field-name-field-person-bio-title-affil, div.node.node-person-bio.node-full div.field-name-field-person-bio-address, div.node.node-person-bio.node-full div.field-name-field-person-bio-phone, div.node.node-person-bio.node-full div.field-name-field-person-bio-email, div.node.node-person-bio.node-full div.field-name-field-person-bio-related-links, div.node.node-person-bio.node-full div.field-name-field-person-bio-text { 
+  margin-left:0;
+}
+
+div.node-type-person-bio > .group-left > div.field.field-name-field-person-bio-photo {
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+div.node.node-person-bio.node-full div.field.field-name-field-person-bio-photo {
+  border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.field-name-field-person-bio-text .field-label, .field-name-field-areas-of-specialization .field-label, .field-name-field-recent-publications .field-label {
+  font-size: 16pt;
+    background-color: rgba(243,243,243,1);
+    padding: 8px 5px;
+    color: #555;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+
+div.view-related-research-block .views-row{
+  padding-bottom: 1em;
+  height:100px;
+}
+
+body.page-people-related-research .view-related-research-block .views-row,
+body.page-research .view-related-research-block .views-row{
+  height: initial;
+}
+
+body.page-people-related-research .view-related-research-block .views-field-field-project-name-short a,
+body.page-research .view-related-research-block .views-field-field-project-name-short a{
+	font-size: 18px;
+}
+
+div.view-related-research-block div.views-field.views-field-title a {
+  font-weight: initial;
+
+}
+
+/*bio search page*/
+.view-all-faculty-areas-of-specialization .views-row {
+ padding:15px;
+}
+
+.view-all-faculty-areas-of-specialization .views-row-odd {
+ background: #f3f3f3;
+}
+
+.view-all-faculty-areas-of-specialization .views-row-even {
+ background: #E6E6E6;
+}
+
+.view-all-faculty-areas-of-specialization .views-field-title h4 {
+ font-size:1.2em;
+ margin: 0 0 0.5em 0;
+}
+
+.view-all-faculty-areas-of-specialization .views-field-field-areas-of-specialization {
+ margin-top: 20px;
+}
+
+/* ~496px or more */
+@media only screen and (min-width: 31em) {
+  aside.content-image {
+    margin: 0.2em 1% 1em 5%; } }
+/************************************/
+/*    People                        */
+/************************************/
+/* Shared */
+
+ul.views-fluid-grid-items-width-350 li.views-fluid-grid-item {
+  width: 370px;
+  margin-bottom: 10px;
+}
+
+ul.views-fluid-grid-items-height-200 li.views-fluid-grid-item {
+    height: 220px;
+}
+
+div.field-name-field-person-bio-title-affil .entity.clearfix:after,
+div.views-field-field-person-bio-title-affil .entity.clearfix:after {
+  content: "";
+  clear: right; }
+div.field-name-field-person-bio-title-affil div.field-name-field-person-bio-affiliation,
+div.field-name-field-person-bio-title-affil div.field-name-field-person-bio-title,
+div.views-field-field-person-bio-title-affil div.field-name-field-person-bio-affiliation,
+div.views-field-field-person-bio-title-affil div.field-name-field-person-bio-title {
+  display: inline; }
+  div.field-name-field-person-bio-title-affil div.field-name-field-person-bio-affiliation .field-items,
+  div.field-name-field-person-bio-title-affil div.field-name-field-person-bio-title .field-items,
+  div.views-field-field-person-bio-title-affil div.field-name-field-person-bio-affiliation .field-items,
+  div.views-field-field-person-bio-title-affil div.field-name-field-person-bio-title .field-items {
+    display: inline; }
+    div.field-name-field-person-bio-title-affil div.field-name-field-person-bio-affiliation .field-items .field-item,
+    div.field-name-field-person-bio-title-affil div.field-name-field-person-bio-title .field-items .field-item,
+    div.views-field-field-person-bio-title-affil div.field-name-field-person-bio-affiliation .field-items .field-item,
+    div.views-field-field-person-bio-title-affil div.field-name-field-person-bio-title .field-items .field-item {
+      display: inline; }
+div.field-name-field-person-bio-title-affil div.field-name-field-person-bio-title,
+div.views-field-field-person-bio-title-affil div.field-name-field-person-bio-title {
+  padding-right: 0.2em; }
+  div.field-name-field-person-bio-title-affil div.field-name-field-person-bio-title .field-item:after,
+  div.views-field-field-person-bio-title-affil div.field-name-field-person-bio-title .field-item:after {
+    content: " \2014 "; }
+
+/* Listing */
+div.view.view-faculty-council-members,
+div.view.view-staff {
+  /* ~496px or more */ }
+  div.view.view-faculty-council-members div.views-field.views-field-field-person-bio-photo,
+  div.view.view-staff div.views-field.views-field-field-person-bio-photo {
+    display: block;
+    float: left;
+    padding: 2px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    border: 0; }
+  div.view.view-faculty-council-members table,
+  div.view.view-staff table {
+    border: none; }
+  div.view.view-faculty-council-members td,
+  div.view.view-staff td {
+    float: left;
+    border: none;
+    border-top: 1px dotted #b0b0b0;
+    margin-right: 4em;
+    padding-top: 1em;
+    margin-bottom: 0.5em; }
+  div.view.view-faculty-council-members span.views-field-title,
+  div.view.view-staff span.views-field-title {
+    display: block; }
+    div.view.view-faculty-council-members span.views-field-title a,
+    div.view.view-staff span.views-field-title a {
+      font-weight: bold;
+      text-decoration: none; }
+  div.view.view-faculty-council-members span.views-field-title,
+  div.view.view-faculty-council-members div.views-field-field-person-bio-title-affil,
+  div.view.view-faculty-council-members div.views-field-field-person-bio-address-organisation-name,
+  div.view.view-faculty-council-members div.views-field-field-person-bio-title,
+  div.view.view-faculty-council-members div.views-field-field-person-bio-email,
+  div.view.view-faculty-council-members div.views-field-field-person-bio-phone,
+  div.view.view-faculty-council-members div.views-field-field-person-bio-related-links,
+  div.view.view-staff span.views-field-title,
+  div.view.view-staff div.views-field-field-person-bio-title-affil,
+  div.view.view-staff div.views-field-field-person-bio-address-organisation-name,
+  div.view.view-staff div.views-field-field-person-bio-title,
+  div.view.view-staff div.views-field-field-person-bio-email,
+  div.view.view-staff div.views-field-field-person-bio-phone,
+  div.view.view-staff div.views-field-field-person-bio-related-links,
+  div.view.view-staff div.views-field-nothing,
+  div.view.view-staff div.views-field-nothing-1,
+  div.view.view-staff div.views-field-nothing-2,
+  div.view.view-staff div.views-field-field-home-school-code,
+  div.view.view-staff div.views-field-field-research-keywords{
+    margin: 0 0 0.2em 135px; 
+  }
+
+  @media only screen and (min-width: 51em) {
+    div.view.view-faculty-council-members td,
+    div.view.view-staff td {
+      float: none;
+      border-bottom: 1px dotted #b0b0b0; } }
+
+#block-hg-reader-9 .block-title-wrapper h4:before {
+    color: #B3B3B3;
+    display: inline-block;
+    float: left;
+    font-family: FontAwesome;
+    font-size: 30px;
+    margin: -6px 6px 0 0;
+}
+
+
+
+div.views-fluid-grid h3 {
+ text-align: left;
+ margin-top: 10px;
+ margin-bottom: 20px;
+}
+
+/* News and Events */
+
+#block-hg-reader-7 .block-title-wrapper > h4:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    content: "\f133";
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0 .4em 0 .3em;
+}
+
+body.front li.hg-feed-item,
+.view-related-faculty-news-block .views-row,
+.view-related-research-block .views-row {
+    width: 100%;
+    padding: 1em;
+    min-height: 0;
+    margin-bottom: .5em;
+    margin-top: 1em;
+    clear: both;
+    /*overflow: auto;*/
+    background: #fff;
+    border: 1px solid #ccc;
+
+}
+
+
+.view-related-faculty-news-block .views-field-field-media img,
+.view-related-research-block .views-field-field-media img {
+    float: left;
+    width: 28%;
+    height: auto;
+    padding-right: 0.5em;
+}
+
+.view-display-id-page_1 .views-field-field-media img, .view-display-id-page_2 .views-field-field-media img {
+    width: inherit;
+}
+
+.view-display-id-page_1 .views-row, .view-display-id-page_2 .views-row {
+    border:0;
+}
+
+
+.view-related-faculty-news-block .views-field-body {
+  margin-left: 28%;
+}
+
+.view-related-faculty-news-block .view-footer,
+.view-related-research-block .view-footer {
+  float:right;
+}
+
+.view-related-research-block .views-field-field-project-name-short a {
+    font-weight: bold;
+    text-decoration: None;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color:#1a0dab;
+}
+
+.page-node li.hg-feed-item {
+    width: 100%;
+    padding: 1em;
+    min-height: 0;
+    margin-bottom: .5em;
+    margin-top: 1em;
+    clear: both;
+    /*overflow: auto;*/
+    background: #f3f3f3;
+    border: 0;
+
+}
+
+.page-node .block-hg-reader {
+    background: transparent;
+}
+
+.block-hg-reader {
+    background: none repeat scroll 0 0 #EEEEEE;
+    padding: 10px;
+}
+
+.hg-feed-news-date,
+.views-field-field-news-date .field-content {
+    margin-left: 28%;
+font-weight: 500;
+    min-width: 100%;
+    color: #000;
+    text-transform: uppercase;
+    font-size: .8em !important;
+    padding: .25em 0 .4em 0;
+}
+
+body.page-people-related-news .views-field-field-news-date .field-content,
+body.page-people-related-news .view-related-faculty-news-block .views-field-body {
+    margin-left: 0;
+
+}
+
+body.page-people-related-news div.views-field.views-field-title a {
+	font-size: 18px;
+}
+
+.hg-feed-news-date:before,
+.views-field-field-news-date .field-content:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    content: "\f017";
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0 .4em 0 .3em;
+}
+
+.hg-feed-event-time {
+    font-weight: 500;
+    min-width: 100%;
+    color: #000;
+    text-transform: uppercase;
+    font-size: .8em !important;
+    padding: .25em 0 .4em 0;
+}
+
+body.node-type-faculty-related-news .field-name-field-media .field-item,
+body.node-type-ose-research-ideas .field-name-field-media .field-item{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    color: ;
+}
+
+body.node-type-ose-research-ideas .field-name-field-ose-research-project-name {
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+div.news-faculty {
+	margin-left:15px;
+}
+
+body.node-type-faculty-related-news .hg-sidebar-header,
+body.node-type-faculty-related-news .related-media-item,
+body.node-type-ose-research-ideas .hg-sidebar-header,
+body.node-type-ose-research-ideas .related-media-item
+  {
+	margin-bottom: 20px;
+}
+
+body.node-type-faculty-related-news .related-media-item,
+body.node-type-ose-research-ideas .related-media-item {
+	text-align: center;
+}
+
+body.node-type-faculty-related-news .field-name-field-associated-faculty,
+body.node-type-ose-research-ideas .field-name-field-associated-faculty{
+	font-size:18px;
+	margin-top:15px;
+}
+
+
+body.node-type-faculty-related-news .field-name-field-associated-faculty .field-item,
+body.node-type-ose-research-ideas .field-name-field-associated-faculty .field-item{
+  float: left; 
+
+}
+
+body.node-type-faculty-related-news .field-name-field-associated-faculty .field-item a,
+body.node-type-faculty-related-news .field-name-field-associated-faculty .field-item a:hover,
+body.node-type-ose-research-ideas .field-name-field-associated-faculty .field-item a,
+body.node-type-ose-research-ideas .field-name-field-associated-faculty .field-item a:hover {
+ color: #004f9f;
+font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+body.node-type-faculty-related-news .field-name-field-associated-faculty .field-item:after,
+body.node-type-ose-research-ideas .field-name-field-associated-faculty .field-item:after {
+  content: " ,"; right: 3px; position: relative;
+}
+
+body.node-type-faculty-related-news .field-name-field-associated-faculty .field-item:last-child:after,
+body.node-type-ose-research-ideas .field-name-field-associated-faculty .field-item:last-child:after {
+    content: none;
+}
+
+/*body.node-type-faculty-related-news .field-name-field-associated-faculty .field-item:last-child:before {
+    content: " and ";
+}*/
+
+body.node-type-faculty-related-news .field-name-field-associated-faculty .field-item:first-child:before,
+body.node-type-ose-research-ideas .field-name-field-associated-faculty .field-item:first-child:before {
+    content: none;
+}
