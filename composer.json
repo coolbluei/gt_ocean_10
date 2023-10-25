@@ -63,6 +63,7 @@
         "gt/gt_theme": "*",
         "gt/gt_tools": "*",
         "gt/hg_reader": "*",
+        "platformsh/config-reader": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
