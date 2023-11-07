@@ -1,0 +1,20 @@
+uuid: 0aa41a42-30e3-4a69-87e4-1c0b96dbb6ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - cbi_hero_banner
+  theme:
+    - gt_custom
+id: gt_custom_heroblock
+theme: gt_custom
+region: full_width_before_content
+weight: 0
+provider: null
+plugin: hero_block
+settings:
+  id: hero_block
+  label: 'Hero block'
+  label_display: '0'
+  provider: cbi_hero_banner
+visibility: {  }

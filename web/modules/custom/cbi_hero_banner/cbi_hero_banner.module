@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function cbi_hero_banner_theme() {
+  return [
+    'hero_block' => [
+      'variables' => [
+        'data' => [],
+      ],
+    ],
+  ];
+}
