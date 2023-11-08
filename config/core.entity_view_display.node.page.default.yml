@@ -39,23 +39,6 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 2
             additional: {  }
-          697520fc-ba4d-4a22-a0b9-4e7cee162f6b:
-            uuid: 697520fc-ba4d-4a22-a0b9-4e7cee162f6b
-            region: content
-            configuration:
-              id: 'field_block:node:page:field_hero_banner'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: entity_reference_revisions_entity_view
-                label: above
-                settings:
-                  view_mode: default
-                  link: ''
-                third_party_settings: {  }
-            weight: 3
-            additional: {  }
         third_party_settings: {  }
   layout_builder_restrictions:
     entity_view_mode_restriction:
