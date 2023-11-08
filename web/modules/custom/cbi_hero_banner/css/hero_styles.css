@@ -22,7 +22,6 @@
     color: white;
 }
 
-.hero_block__container .field--name-field-image img {
-    max-height: 300px;
-    object-fit: cover;
+.hero_block__container {
+    position: relative;
 }
