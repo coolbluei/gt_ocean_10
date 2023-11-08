@@ -6,7 +6,7 @@ use Drupal\Core\Block\BlockBase;
 use Drupal\paragraphs\Entity\Paragraph;
 
 /**
- * Provides a 'Hello' Block.
+ * Provides a Hero Block.
  *
  * @Block(
  *   id = "hero_block",
