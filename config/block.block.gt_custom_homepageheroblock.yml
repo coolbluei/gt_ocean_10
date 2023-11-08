@@ -1,0 +1,20 @@
+uuid: c5912989-119f-4c24-b966-2f26ae46d4d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - gt_ocean
+  theme:
+    - gt_custom
+id: gt_custom_homepageheroblock
+theme: gt_custom
+region: full_width_before_content
+weight: 0
+provider: null
+plugin: home_page_hero_block
+settings:
+  id: home_page_hero_block
+  label: 'Home Page Hero Block'
+  label_display: visible
+  provider: gt_ocean
+visibility: {  }
