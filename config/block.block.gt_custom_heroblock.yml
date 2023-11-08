@@ -8,8 +8,8 @@ dependencies:
     - gt_custom
 id: gt_custom_heroblock
 theme: gt_custom
-region: full_width_before_content
-weight: 0
+region: banner
+weight: -10
 provider: null
 plugin: hero_block
 settings:
