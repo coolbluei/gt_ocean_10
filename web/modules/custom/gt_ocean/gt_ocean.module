@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function gt_ocean_theme() {
+  return [
+    'home_page_hero_block' => [
+      'variables' => [
+        'data' => [],
+      ],
+    ],
+  ];
+}

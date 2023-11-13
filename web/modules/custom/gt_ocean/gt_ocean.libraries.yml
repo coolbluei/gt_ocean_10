@@ -1,0 +1,11 @@
+home_hero_styles:
+  version: VERSION
+  css:
+    theme:
+      css/home_hero_styles.css:
+        weight: -10
+  js:
+    js/ocean.js: {}
+    js/custom.js: {}
+  dependencies:
+    - core/jquery

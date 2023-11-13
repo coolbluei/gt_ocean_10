@@ -1,0 +1,126 @@
+/* Custom Home Page Hero Banner Block */
+.md-hero-container {
+  position: relative;
+  display: flex;
+  height: 55vw;
+  max-height: 500px;
+  justify-content: center;
+}
+
+.md-mainimg #image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.md-objects {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+  width: 100%;
+  font-size: 99%;
+}
+
+.md-object {
+  position: absolute;
+  transition: all 500ms ease-in-out;
+  display: block;
+}
+
+@media (max-width: 460px) {
+  .md-objects {
+    display: none;
+  }
+}
+
+
+/* Elements animations and positioning */
+.md-layer-1-0-0 {
+  width: 23.7%;
+  height: 29.6%;
+  top: 0%;
+  left: 16.4%;
+  opacity: 0;
+}
+
+.md-layer-1-0-0.element-visible {
+  top: 2%;
+  opacity: 1;
+}
+
+.md-layer-1-0-1 {
+  width: 28.5%;
+  height: 29.6%;
+  top: 4.4%;
+  left: 50.1%;
+  opacity: 0;
+}
+
+.md-layer-1-0-1.element-visible {
+  top: 6.4%;
+  opacity: 1;
+}
+
+.md-layer-1-0-2 {
+  width: 26.5%;
+  height: 29.6%;
+  top: 34%;
+  left: 73.9%;
+  opacity: 0;
+}
+
+.md-layer-1-0-2.element-visible {
+  left: 71.9%;
+  opacity: 1;
+}
+
+.md-layer-1-0-3 {
+  width: 24.3%;
+  height: 29.6%;
+  top: 63.6%;
+  left: 52.9%;
+  opacity: 0;
+}
+
+.md-layer-1-0-3.element-visible {
+  top: 61.6%;
+  opacity: 1;
+}
+
+.md-layer-1-0-4 {
+  width: 30.9%;
+  height: 29.6%;
+  top: 65.6%;
+  left: 15.2%;
+  opacity: 0;
+}
+
+.md-layer-1-0-4.element-visible {
+  top: 67.6%;
+  opacity: 1;
+}
+/* For cases where element goes opposite text */
+.md-layer-1-0-4.element-hidden {
+  top: 69.6%;
+  opacity: 0;
+}
+
+.md-layer-1-0-5 {
+  width: 24%;
+  height: 29.6%;
+  top: 51.4%;
+  left: 2%;
+  opacity: 0;
+}
+
+.md-layer-1-0-5.element-visible {
+  left: 0%;
+  opacity: 1;
+}
+/* For cases where element goes opposite text */
+.md-layer-1-0-5.element-hidden {
+  left: -2%;
+  opacity: 0;
+}
