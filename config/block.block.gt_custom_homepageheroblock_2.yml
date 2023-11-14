@@ -16,7 +16,7 @@ plugin: gt_ocean_home_hero_block
 settings:
   id: gt_ocean_home_hero_block
   label: 'Home Page Hero Block'
-  label_display: visible
+  label_display: '0'
   provider: gt_ocean
 visibility:
   request_path:

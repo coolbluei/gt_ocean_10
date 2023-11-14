@@ -16,7 +16,7 @@ plugin: hero_block
 settings:
   id: hero_block
   label: 'Hero block'
-  label_display: visible
+  label_display: '0'
   provider: cbi_hero_banner
 visibility:
   request_path:

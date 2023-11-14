@@ -1,0 +1,19 @@
+uuid: 225bdf90-7961-4cae-bf76-98909c3dcd04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_subtext
+    - paragraphs.paragraphs_type.image_with_text
+id: paragraph.image_with_text.field_subtext
+field_name: field_subtext
+entity_type: paragraph
+bundle: image_with_text
+label: 'Sub Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
