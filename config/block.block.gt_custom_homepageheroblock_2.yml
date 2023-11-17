@@ -1,25 +1,25 @@
-uuid: 2fe97f3c-afa4-47f6-9870-96afbd1761e5
+uuid: ad7e2ff1-bd91-4334-90ca-c208d41fa879
 langcode: en
 status: true
 dependencies:
   module:
-    - cbi_hero_banner
+    - gt_ocean
     - system
   theme:
     - gt_custom
-id: gt_custom_heroblock
+id: gt_custom_homepageheroblock_2
 theme: gt_custom
 region: banner
 weight: 0
 provider: null
-plugin: hero_block
+plugin: gt_ocean_home_hero_block
 settings:
-  id: hero_block
-  label: 'Hero block'
+  id: gt_ocean_home_hero_block
+  label: 'Home Page Hero Block'
   label_display: '0'
-  provider: cbi_hero_banner
+  provider: gt_ocean
 visibility:
   request_path:
     id: request_path
-    negate: true
+    negate: false
     pages: '<front>'

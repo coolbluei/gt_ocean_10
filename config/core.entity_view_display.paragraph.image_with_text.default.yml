@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.image_with_text.field_image
+    - field.field.paragraph.image_with_text.field_subtext
     - field.field.paragraph.image_with_text.field_text
     - paragraphs.paragraphs_type.image_with_text
   module:
@@ -23,6 +24,14 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_subtext:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
     region: content
   field_text:
     type: string
